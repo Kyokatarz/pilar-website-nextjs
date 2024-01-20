@@ -1,17 +1,22 @@
 import React from 'react'
+import Image from 'next/image'
+
 import SubSectionHeader from '@/components/SubSectionHeader'
 import Paragraph from '@/components/Paragraph'
 import Article from '@/components/Article'
 import Section from '@/components/Section'
-
-import TheUgly from './foto-horizontal.jpg'
-import Image from 'next/image'
+import TheUgly from '@/../public/assets/foto-horizontal.jpg'
 
 const Introduction = () => {
   return (
     <Section id='landing-introduction'>
       <div className='flex items-center justify-center mb-6 max-w-sm flex-col'>
-        <Image src={TheUgly} alt='' className='max-w-full w-auto' />
+        <Image
+          src={TheUgly}
+          alt=''
+          className='max-w-full w-auto'
+          style={{ maxWidth: '100%', height: 'auto' }}
+        />
       </div>
       <Article>
         <header>
