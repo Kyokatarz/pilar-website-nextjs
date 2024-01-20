@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className='mb-5'>
+    <footer className='mb-5 text-center'>
       Open source website @{' '}
       <a
         href='https://github.com/Kyokatarz/pilar-personal-website'

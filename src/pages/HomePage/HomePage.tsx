@@ -1,5 +1,11 @@
+import Introduction from './sections/Introduction'
+
 const HomePage = () => {
-  return <div>HomePage</div>
+  return (
+    <>
+      <Introduction />
+    </>
+  )
 }
 
 export default HomePage
