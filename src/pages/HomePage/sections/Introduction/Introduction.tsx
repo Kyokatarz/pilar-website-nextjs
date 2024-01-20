@@ -14,7 +14,6 @@ const Introduction = () => {
         <Image
           src={TheUgly}
           alt=''
-          className='max-w-full w-auto'
           style={{ maxWidth: '100%', height: 'auto' }}
         />
       </div>
