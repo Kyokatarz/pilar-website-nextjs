@@ -1,3 +1,4 @@
+import HomePageMedia from './sections/HomePageMedia'
 import Introduction from './sections/Introduction'
 import ShortAbout from './sections/ShortAbout'
 
@@ -6,6 +7,7 @@ const HomePage = () => {
     <>
       <Introduction />
       <ShortAbout />
+      <HomePageMedia />
     </>
   )
 }
