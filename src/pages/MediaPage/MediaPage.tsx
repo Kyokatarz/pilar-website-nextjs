@@ -69,7 +69,7 @@ const youtubeMedia = [
   },
 ]
 
-const Media = () => {
+const MediaPage = () => {
   return (
     <Section maxWidth='max-w-screen-2xl'>
       <h1 className='text-4xl font-bold text-center mb-6'>Media</h1>
@@ -153,4 +153,4 @@ const Media = () => {
   )
 }
 
-export default Media
+export default MediaPage
