@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import icon from './assets/icon.svg'
 import DesktopNavLinks from './DesktopNavLinks'
+import MobileNavLinks from '../MobileNavLinks'
 // import DesktopNavLinks from './components/DesktopNavLinks'
 // import MobileNavLinks from './components/MobileNavLinks'
 
@@ -13,7 +14,7 @@ const Navbar = () => {
         <Image src={icon} alt='To home page icon' className='ml-4' />
       </a>
       <DesktopNavLinks />
-      {/* <MobileNavLinks /> */}
+      <MobileNavLinks />
     </nav>
   )
 }
