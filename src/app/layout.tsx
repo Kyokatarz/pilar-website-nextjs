@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: 'Pilar Miralles · Composer - Sound Artist',
   description:
     "Hi, I'm Pilar Miralles - a Composer and Sound Artist. Welcome to my website!",
-  icons: ['/favicon.png'],
+  icons: ['/favicon.ico'],
 }
 
 export default function RootLayout({
@@ -20,6 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
+      {/* insert favicon */}
+      <head>
+        <link rel='icon' href='/favicon.ico' sizes='any' />
+      </head>
       <body>
         <Navbar />
         <main className='pt-14 min-h-screen'>{children}</main>
