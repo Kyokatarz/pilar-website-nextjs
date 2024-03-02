@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-import ListItem from '../../components/ListItem/ListItem'
-import Section from '../../components/Section'
-import YoutubeCaptionPair from '../../components/YoutubeCaptionPair'
-import soundCloud from '../../constants/soundCloud'
-import SoundCloudIframe from '../../components/SoundCloudIframe/SoundCloudIframe'
+import ListItem from '../../components/ListItem/ListItem';
+import Section from '../../components/Section';
+import YoutubeCaptionPair from '../../components/YoutubeCaptionPair';
+import soundCloud from '../../../constants/soundCloud';
+import SoundCloudIframe from '../../components/SoundCloudIframe/SoundCloudIframe';
+import Link from 'next/link';
 
 const youtubeMedia = [
   {
@@ -14,7 +15,7 @@ const youtubeMedia = [
   },
   {
     title:
-      '"I don\'t expect anything from this afternoon", for violin, bass clarinet, violoncello and percussio (2023) – Norrbotten NEO',
+      '"I don\'t expect anything from this afternoon", for violin, bass clarinet, violoncello and percussion (2023) – Norrbotten NEO',
     url: 'https://www.youtube.com/watch?v=mq7E79WxZYg',
   },
   {
@@ -54,7 +55,7 @@ const youtubeMedia = [
   },
   {
     title:
-      '"Relative Distance", for flute and computer-generated sound (2019) – Paco Rojas Huertas',
+      '"Relative Distance", for flute and computer-generated sound (2019) – Francisco Rojas Huertas',
     url: 'https://www.youtube.com/watch?v=2j2BSpcZgkA',
   },
   {
@@ -67,20 +68,20 @@ const youtubeMedia = [
       '"Anti-Philosophy of the Subject; Mankind\'s Origin Is in Its Fellows", for oboe and string trio (2022) - Cuarteto Emispherio',
     url: 'https://www.youtube.com/watch?v=XwoO4x_gT54',
   },
-]
+];
 
 const MediaPage = () => {
   return (
     <Section maxWidth='max-w-screen-2xl'>
       <h1 className='text-4xl font-bold text-center mb-6'>Media</h1>
-      <span className='text-1xl italic text-gray-600'>
+      <span className='text-1xl italic text-gray-600 text-center'>
         Many of the works composed before 2023 do not represent my current
         artistic interests (although I still cherish them).
         <br />
         Take a look at my{' '}
-        <a className='text-blue-500' href='/#statement'>
+        <Link href='/#landing-introduction' className='text-blue-500'>
           artist statement
-        </a>{' '}
+        </Link>{' '}
         to get an idea of what I could be up to for upcoming creations.
       </span>
       <br />
@@ -126,31 +127,44 @@ const MediaPage = () => {
 
       <div className='w-full text-left mt-8 border-black border-4 p-4 '>
         <p className='underline'>Upcoming premiers</p>
-        <ul className='mt-8'>
-          <ListItem>
-            "Dos fughettas", for violin and piano (2019) - To be premiered by
-            Carlos Galán and Emilio Sánchez in Madrid and Andalucía, Spain, in
-            February and March 2024, respectively.
-          </ListItem>
-          <ListItem>
-            "Lull", for solo harp and tape (2024) - To be premiered by Maaria
-            Pulakka at her master's concert at the Sibelius Academy in Helsinki,
-            Finland, in the Autumn 2024
-          </ListItem>
+        <ul className='mt-8' id='premiers'>
           <ListItem>
             "Music to watch a puddle dry" (2024), for flute and tape - To be
             premiered by Francisco Rojas in Gent, Belgium, in June 2024
           </ListItem>
           <ListItem>
-            "Brief Requiem for the Poets and Prayers" (2023), for chamber
-            orchestra (2022) – To be premiered by Avanti! Chamber Orchestra at
-            Sovisoitto (Summer Sounds Festival) on the 30th of June 2024
-            (Porvoo, Finland)
+            "Brief Requiem for the Poets and Prayers" (2022), for chamber
+            orchestra – To be premiered by Avanti! Chamber Orchestra at
+            Sovisoitto (Summer Sounds Festival) on June 30, 2024 (Porvoo,
+            Finland)
+          </ListItem>
+          <ListItem>
+            "Music for a potted plant" (2024), for classical guitar - To be
+            premiered by Rody van Gemert in Spain (various locations), in the
+            Autumn 2024
+          </ListItem>
+          <ListItem>
+            "Lull", for harp and tape (2024) - To be premiered by Maaria Pulakka
+            at her master's concert at the Sibelius Academy in Helsinki,
+            Finland, in the Autumn 2024
+          </ListItem>
+          <ListItem>
+            New work for solo euphonium (2024) - To be premiered by Raúl Sabiote
+            in Cerezales (León, Spain) in October 2024 as part of my composition
+            residency at <em>Red de Juventudes Musicales de España</em> (Spanish
+            Musical Youth Network)
+          </ListItem>
+          <ListItem>
+            New work for percussion duo (2024-25) - To be premiered by Duo
+            Stèles (Guillem Serrano and Ismael Azidane) in Cerezales (León,
+            Spain) in February 2025 as part of my composition residency at{' '}
+            <em>Red de Juventudes Musicales de España</em> (Spanish Musical
+            Youth Network)
           </ListItem>
         </ul>
       </div>
     </Section>
-  )
-}
+  );
+};
 
-export default MediaPage
+export default MediaPage;

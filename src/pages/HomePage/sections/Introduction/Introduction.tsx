@@ -1,11 +1,11 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
 
-import SubSectionHeader from '@/components/SubSectionHeader'
-import Paragraph from '@/components/Paragraph'
-import Article from '@/components/Article'
-import Section from '@/components/Section'
-import TheUgly from '@/../public/assets/foto-horizontal.jpg'
+import SubSectionHeader from '@/components/SubSectionHeader';
+import Paragraph from '@/components/Paragraph';
+import Article from '@/components/Article';
+import Section from '@/components/Section';
+import TheUgly from '@/../public/assets/foto-horizontal.jpg';
 
 const Introduction = () => {
   return (
@@ -39,13 +39,13 @@ const Introduction = () => {
           technocracy and administrative deception.
           <br />
           <br />
-          My work as an artist is focused on the problematization of time,
-          mostly through sound, as a social tool. I intend to create situations
-          of sonic "underload" where the listener can linger over reflection and
-          contemplation. I believe in quietness to overcome the excess of
-          information, fragmentation of the present, and immediacy of
-          production, consumption and optimization of today's everyday life. I
-          train myself{' '}
+          My work as an artist is focused on the problematization of
+          socio-temporal logics, mostly through sound. I intend to create
+          situations of sonic "underload" where the listener can linger over
+          reflection and contemplation. I believe in quietness, sparseness and
+          simplicity to overcome the excess of information, fragmentation of the
+          present, and immediacy of production, consumption and optimization of
+          today's everyday life. I train myself{' '}
           <em>
             to look better in order to see, to listen better in order to hear
           </em>{' '}
@@ -62,16 +62,12 @@ const Introduction = () => {
           <br />
           <br />
           <em>
-            More and more I have the feeling that we are getting nowhere.
-            Slowly, as the talk goes on, we are getting nowhere and that is a
-            pleasure… Originally, we were nowhere; and now, again, we are having
-            the pleasure of being slowly nowhere. If anybody is sleepy, let him
-            go to sleep{' '}
+            ...Promoting resting as a social action. We shouldn't rest to become
+            blind and deaf, but to ease the opening of eyes and ears amid the
+            overload of today’s reality... ...If anybody is sleepy, let them go
+            to sleep...
           </em>{' '}
-          (John Cage, "Lecture on Nothing").
           <br />
-          <br />I commit myself to <em>quieten time</em> and{' '}
-          <em>linger over sound</em>.
           <br />
           <br />
           <br />
@@ -125,7 +121,7 @@ const Introduction = () => {
         </p>
       </Article>
     </Section>
-  )
-}
+  );
+};
 
-export default Introduction
+export default Introduction;

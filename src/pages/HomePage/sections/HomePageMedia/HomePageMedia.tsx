@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react';
 
-import Article from '@/components/Article'
-import Section from '@/components/Section'
-import SeeMore from '@/components/SeeMore'
+import Article from '@/components/Article';
+import Section from '@/components/Section';
+import SeeMore from '@/components/SeeMore';
 // import YoutubeCaptionPair from '@/components/YoutubeCaptionPair/YoutubeCaptionPair'
-import { dedbirbSoundCloud } from '@/constants/soundCloud'
-import SoundCloudIframe from '@/components/SoundCloudIframe'
-import dynamic from 'next/dynamic'
+import { dedbirbSoundCloud } from '../../../../../constants/soundCloud';
+import SoundCloudIframe from '@/components/SoundCloudIframe';
+import dynamic from 'next/dynamic';
 
 const YoutubeCaptionPair = dynamic(
   () => import('@/components/YoutubeCaptionPair/YoutubeCaptionPair'),
-  { ssr: false },
-)
+  { ssr: false }
+);
 
 const Media = () => {
   return (
@@ -55,7 +55,7 @@ const Media = () => {
         </SeeMore>
       </Article>
     </Section>
-  )
-}
+  );
+};
 
-export default Media
+export default Media;

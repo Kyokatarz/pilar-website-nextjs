@@ -1,13 +1,13 @@
-import React from 'react'
-import ListItem from '@/components/ListItem'
+import React from 'react';
+import ListItem from '@/components/ListItem';
 
-import Paragraph from '@/components/Paragraph'
-import Section from '@/components/Section'
-import SeeMore from '@/components/SeeMore'
-import SubSectionHeader from '@/components/SubSectionHeader'
+import Paragraph from '@/components/Paragraph';
+import Section from '@/components/Section';
+import SeeMore from '@/components/SeeMore';
+import SubSectionHeader from '@/components/SubSectionHeader';
 
-import PilarWorking from '@/../public/assets/foto-vertical.jpg'
-import Image from 'next/image'
+import PilarWorking from '@/../public/assets/foto-vertical.jpg';
+import Image from 'next/image';
 
 const FullAbout = () => {
   return (
@@ -21,7 +21,7 @@ const FullAbout = () => {
               I use SuperCollider programming language for composing my
               electroacoustic works. You can check out my{' '}
               <a
-                href='https://github.com/pilarmiralles'
+                href='https://github.com/pilarmiralles/SuperCollider-theory'
                 target='_blank'
                 rel='noreferrer'
                 className='text-blue-500'
@@ -37,17 +37,16 @@ const FullAbout = () => {
           <Paragraph>
             Hi! My name is Pilar Miralles and I was born in Almería (Spain) in
             1997. I am a composer and sound artist based in Helsinki (Finland).
-            I speak Spanish, English, a bit of French, and a tiny tad of
-            Finnish. You can find my artist statement and short bio in the home
-            page.
+            I speak Spanish, English, and a decent French. You can find my
+            artist statement and short bio in the home page.
           </Paragraph>
           <br />
           <SubSectionHeader level={2}>Education</SubSectionHeader>
           <ul className='text-justify'>
             <ListItem>
-              Preparatory doctoral student at DocMus Doctoral School of the
-              Sibelius Academy, University of the Arts Helsinki (Finland,
-              ongoing)
+              Preparatory doctoral student in Composition at DocMus Doctoral
+              School of the Sibelius Academy, University of the Arts Helsinki
+              (Finland, ongoing)
             </ListItem>
             <ListItem>
               Master of Music in Composition at the Sibelius Academy, University
@@ -62,16 +61,15 @@ const FullAbout = () => {
                   rel='noreferrer'
                   className='text-blue-500'
                 >
-                  Master thesis
+                  Master's thesis
                 </a>{' '}
                 "Galina Ustvolskaya’s 'True and Eternal Bliss': spiritual
                 creativity in the Soviet Union"
               </ListItem>
             </ul>
             <ListItem>
-              Master’s Degree in Electroacoustic Composition at the Higher
-              Center of Musical Education “Katarina Gurska” of Madrid (Spain,
-              2020)
+              Master’s Degree in Electroacoustic Composition at "Centro Superior
+              Katarina Gurska” of Madrid (Spain, 2020)
             </ListItem>
             <ListItem>
               Bachelor’s Degree in Composition at the Royal Higher Conservatory
@@ -86,22 +84,27 @@ const FullAbout = () => {
             <Paragraph>
               My current artistic research project is called{' '}
               <em>
-                Lingering over Sound; Compositional Solutions for Quietening
-                Time
+                Barely Anything; Problematizing Socio-Temporal Logics through
+                Sonic Underload
               </em>
-              . In this project, I explore compositional solutions to approach
-              timelessness, that is, the suspension of temporal perception, in
-              music. I present quietness as my specific approach to
-              timelessness. Quietness is understood here as an "underload" of
-              auditory information, that is to say, I intend to create
-              situations in which there is very little auditory input for the
-              temporal organization to be optimally processed. Through the
-              creative process of three concert-length works, I aim to
-              articulate an artistic practice I name “time quietening”. These
-              works are proposed as a response to a culture of acceleration,
-              immediacy and informative overload: the audience is provided with
-              situations of sonic “underload” to linger over reflection and
-              contemplation amid the hectic everyday life.
+              . In this project, I aim at the creation of situations of sonic
+              underload, that is, situations in which we may receive less than
+              we expect in terms of sound. This artistic practice seeks to
+              respond to a shared social preoccupation related to temporal
+              perception. We currently live in a society where there is a
+              primacy for speed in processes such as production, consumption,
+              optimization, or connectivity. The pace and amount of information
+              and stimuli we constantly receive create a continuous overloading
+              and overfeeding that can hinder our perception of the world, its
+              analysis, and the subsequent creation of our own principles to
+              believe and rely on. It is my objective that, within a situation
+              of sonic underload, listeners find a space where priorities
+              change: things that have to be left apart in the context of the
+              hurried everyday life become (temporarily) possible. Such is the
+              case of reflecting, contemplating, or simply staying and resting.
+              The utmost aim for the listener is to apply this approach to
+              perception beyond my concerts, being able to encounter continuity,
+              depth, and meaning in this hectic world.
             </Paragraph>
           </ul>
           <br />
@@ -130,7 +133,7 @@ const FullAbout = () => {
             department of the Sibelius Academy since 2023. During 2023-24, I
             have also been invited by the Ulysses Network to join the Ulysses
             Journeys for young composers, attending composition courses at
-            Viitasaari, Hamburg and Barcelona. I am currently working on a
+            Viitasaari, Hamburg, and Barcelona. I am currently working on a
             text-based work (the so-called <em>book</em>), and sometimes I dust
             off my flute and my collage notebook.
           </Paragraph>
@@ -155,7 +158,7 @@ const FullAbout = () => {
         </div>
       </div>
     </Section>
-  )
-}
+  );
+};
 
-export default FullAbout
+export default FullAbout;

@@ -1,11 +1,21 @@
-import React from 'react'
-import ListItem from '../../components/ListItem'
-import Section from '../../components/Section/Section'
+import React from 'react';
+import ListItem from '../../components/ListItem';
+import Section from '../../components/Section/Section';
+import Link from 'next/link';
 
 const WorksPage = () => {
   return (
     <Section maxWidth='max-w-screen-sm'>
       <h1 className='text-4xl font-bold text-center mb-6'>Works</h1>
+      <span className='text-1xl italic text-gray-600 mb-4 text-justify'>
+        Here you can find the scores and audio materials of many of my works.
+        Take a look at the end of my{' '}
+        <Link href='/media#premiers' className='text-blue-500'>
+          media page
+        </Link>{' '}
+        to get to know what other pieces I am currently working on.
+      </span>
+
       <ul className='text-justify'>
         <ListItem>
           <em>
@@ -45,8 +55,8 @@ const WorksPage = () => {
             stretch, open its seams and let the threads peek out from behind
           </em>
           , for violin, bass clarinet, violoncello and percussion (May 2023) –
-          Premiered by <em>Norrbotten NEO</em> on July 9th 2023 at Musiikin aika
-          (Time of Music Festival) in Viitasaari, Finland{' '}
+          Premiered by <em>Norrbotten NEO</em> at Musiikin aika (Time of Music
+          Festival), July 9, 2023 (Viitasaari, Finland){' '}
           <a
             href='https://archive.org/details/i-dont-expect-anything-from-this-afternoon'
             target='_blank'
@@ -63,7 +73,7 @@ const WorksPage = () => {
           </em>
           , for blinking lights, tape, two CD players, and offstage viola and
           piano (February 2023) – Premiered as part of VANG VI Festival of
-          CentroCentro by Vertixe Sonora Ensemble on June 15th 2023 in Madrid{' '}
+          CentroCentro by Vertixe Sonora Ensemble, June 15, 2023 (Madrid, Spain){' '}
           <a
             href='https://archive.org/details/ya-no-siento-el-deslizamiento'
             target='_blank'
@@ -79,17 +89,24 @@ const WorksPage = () => {
         </ListItem>
         <ListItem>
           <em>Brief Requiem for the Poets and Prayers</em>, for chamber
-          orchestra (December 2022) – To be premiered by <em>Avanti!</em>{' '}
-          Chamber Orchestra during the Autumn 2023 in Finland (score in
-          development)
+          orchestra (December 2022) – Premiered by <em>Avanti!</em> Chamber
+          Orchestra during Summer Sounds Festival, June 30, 2024 (Porvoo,
+          Finland){' '}
+          <a
+            href='https://archive.org/details/brief-requiem'
+            target='_blank'
+            rel='noreferrer'
+            className='text-blue-500'
+          >
+            [PDF]
+          </a>
         </ListItem>
         <ListItem>
           <em>
             Anti-Philosophy of the Subject; mankind’s origin is in its fellows
           </em>
           , for oboe, violin, viola and cello (July 2022) – Premiered by{' '}
-          <em>Cuarteto Emispherio</em> in Seville, Sala Turina, on March 5th
-          2023{' '}
+          <em>Cuarteto Emispherio</em>, March 5, 2023 (Seville, Spain){' '}
           <a
             href='https://archive.org/details/antiphilosophy-of-the-subject'
             target='_blank'
@@ -102,8 +119,8 @@ const WorksPage = () => {
         <ListItem>
           <em>Ota yksi, maksa kaksi (Get One for the Price of Two)</em>, for two
           percussionists (June 2022) – Premiered by <em>QDuo</em> (Alejandro
-          Sancho Pérez y José Antonio Caballero Rodríguez) in Segovia,
-          Conservatory of Music, on February 24th 2023{' '}
+          Sancho Pérez y José Antonio Caballero Rodríguez), February 24, 2023
+          (Segovia, Spain){' '}
           <a
             href='https://archive.org/details/percussion-duo'
             target='_blank'
@@ -127,8 +144,8 @@ const WorksPage = () => {
         <ListItem>
           <em>Nanas de la cebolla (Onion’s Lullaby)</em>, for computer-generated
           sound (April 2022) – Premiered at the <em>MuTeFest ’22</em> Festival
-          of Music Creation with Technology, at the Sibelius Academy, on
-          November 30th 2022
+          of Music Creation with Technology, at the Sibelius Academy, November
+          30, 2022 (Helsinki, Finland)
         </ListItem>
         <ListItem>
           <em>Where Are the Workers Now?</em> Sound-installation (April 2022) –
@@ -137,8 +154,8 @@ const WorksPage = () => {
         <ListItem>
           <em>Theme and Variations after “Alle menschen mussen sterben”</em>,
           for organ (February 2022) – Premiered by Leevi Lipponen at the{' '}
-          <em>WeW!22</em> Contemporary Music Festival in Turku, on November 19th
-          2022{' '}
+          <em>WeW!22</em> Contemporary Music Festival, November 19, 2022 (Turku,
+          Finland){' '}
           <a
             href='https://archive.org/details/theme-and-variations-organ'
             target='_blank'
@@ -151,7 +168,7 @@ const WorksPage = () => {
         <ListItem>
           <em>How Difficult It Is to Cry Today</em>, for piano, cello and tape
           (February 2022) – Premiered by <em>Defunensemble</em> at the Sibelius
-          Academy on March 30th 2022{' '}
+          Academy, March 30, 2022 (Helsinki, Finland){' '}
           <a
             href='https://archive.org/details/how-difficult-it-is'
             target='_blank'
@@ -164,7 +181,8 @@ const WorksPage = () => {
         <ListItem>
           <em>Allegory of the Five Industrial Forces</em>, concerto for piano
           and orchestra (January 2022) – Premiered by the <em>Île-de-France</em>{' '}
-          National Orchestra in Paris, Philharmonie de Paris, on July 1st 2022{' '}
+          National Orchestra at Philharmonie de Paris, July 1, 2022 (Paris,
+          France){' '}
           <a
             href='https://archive.org/details/allegory-of-the-five-industrial-forces'
             target='_blank'
@@ -176,8 +194,8 @@ const WorksPage = () => {
         </ListItem>
         <ListItem>
           <em>El niño yuntero (Child of the Plough)</em>, for piano quintet
-          (November 2021) – Premiered by <em>Orchester im Treppenhaus</em> in
-          Hanover, Composer Slam Europe, on February 24th 2022{' '}
+          (November 2021) – Premiered by <em>Orchester im Treppenhaus</em> at
+          the Composer Slam Europe, February 24, 2022 (Hanover, Germany){' '}
           <a
             href='https://archive.org/details/el-nino-yuntero'
             target='_blank'
@@ -202,12 +220,13 @@ const WorksPage = () => {
         <ListItem>
           <em>Alienation</em> for computer-generated sound (September 2021) –
           Premiered during the <em>IMMEDIA Nordplus</em> intensive course, at
-          the Lithuanian Academy of Music and Theater, on September 16th 2021
+          the Lithuanian Academy of Music and Theater, September 16, 2021
+          (Vilnius, Lithuania)
         </ListItem>
         <ListItem>
           <em>Hunger and Fear Bred Anger</em>, for cello, percussion and piano
           (July 2021) – Premiered by <em>K!ART</em> Ensemble at the{' '}
-          <em>Uuden 2021 Musiikin Lokakuu</em> in Oulu, on October 3rd 2021{' '}
+          <em>Uuden 2021 Musiikin Lokakuu</em> October 3, 2021 (Oulu, Finland){' '}
           <a
             href='https://archive.org/details/hunger-and-fear-bred-anger'
             target='_blank'
@@ -222,8 +241,8 @@ const WorksPage = () => {
             Variaciones sobre un tema burgués (Variations on a Bourgeois Theme)
           </em>
           , for txistu, accordion and percussion (June 2021) – Premiered by{' '}
-          <em>Trio Zukan</em> at the XIX Spanish Music Festival of Cádiz, on
-          November 20th 2021{' '}
+          <em>Trio Zukan</em> at the XIX Spanish Music Festival of Cádiz,
+          November 20, 2021 (Cádiz, Spain){' '}
           <a
             href='https://archive.org/details/variaciones-sobre-un-tema-burgues'
             target='_blank'
@@ -237,8 +256,8 @@ const WorksPage = () => {
           <em>Grito al cielo (Scream to the Sky)</em>, based on Lorca poems and
           the Spanish folklore, for wind quintet (April 2021) – Premiered by{' '}
           <em>Glauka</em> Quintet within the project <em>Conjuro</em> at the{' '}
-          <em>27 Encuentros Manuel de Falla</em>, Manuel de Falla Auditorium of
-          Granada, on November 27th 2021{' '}
+          <em>27 Encuentros Manuel de Falla</em>, Manuel de Falla Auditorium,
+          November 27, 2021 (Granada, Spain){' '}
           <a
             href='https://archive.org/details/grito-al-cielo'
             target='_blank'
@@ -250,7 +269,8 @@ const WorksPage = () => {
         </ListItem>
         <ListItem>
           <em>Hugs Catalogue</em>, for eleven players (April 2021) – Premiered
-          by <em>Zagros</em> Ensemble at the Sibelius Academy on May 10th 2021{' '}
+          by <em>Zagros</em> Ensemble at the Sibelius Academy, May 10, 2021
+          (Helsinki, Finland){' '}
           <a
             href='https://archive.org/details/hugs-catalogue'
             target='_blank'
@@ -270,7 +290,7 @@ const WorksPage = () => {
         <ListItem>
           <em>Music for the Masses</em>, for Bass clarinet / Bb clarinet and
           tape (March 2021) – Premiered by Mikko Raasakka at the{' '}
-          <em>59th Music Panel</em> in Osijek (Croatia), on November 11th 2022{' '}
+          <em>59th Music Panel</em>, November 11, 2022 (Osijek, Croatia){' '}
           <a
             href='https://archive.org/details/music-for-the-masses_202304'
             target='_blank'
@@ -307,8 +327,8 @@ const WorksPage = () => {
         </ListItem>
         <ListItem>
           <em>El casetero</em>, traditional <em>pasodoble</em> for wind band
-          (July 2020) – Premiered by the Municipal Band of Casetas in Aragón
-          (Spain) in 2020{' '}
+          (July 2020) – Premiered by the Municipal Band of Casetas, 2020
+          (Aragón, Spain){' '}
           <a
             href='https://archive.org/details/el-casetero'
             target='_blank'
@@ -321,8 +341,8 @@ const WorksPage = () => {
         <ListItem>
           <em>Deconstrucción de un referente (A Referent’s Deconstruction)</em>,
           for seven instruments (July 2020) – Premiered by the{' '}
-          <em>OCAZEnigma</em> Ensemble at Queen Sophia Museum in Madrid, on
-          November 24th 2020{' '}
+          <em>OCAZEnigma</em> Ensemble at Queen Sophia Museum, November 24, 2020
+          (Madrid, Spain){' '}
           <a
             href='https://archive.org/details/a-referents-deconstruction'
             target='_blank'
@@ -336,8 +356,8 @@ const WorksPage = () => {
           <em>Plastic Hugs, Emptiness</em>, for alto/soprano saxophone,
           percussion and tape (July 2020) – Premiered by <em>Honk and Bonk!</em>{' '}
           (Cassandra Roache y Bryan Wysocki), as an arrangement for bassoon and
-          percussion at the <em>Music by Women Festival</em> of Columbia
-          (Mississippi, US), on March 2nd 2023{' '}
+          percussion at the <em>Music by Women Festival</em> of Columbia, March
+          2, 2023 (Mississippi, US){' '}
           <a
             href='https://archive.org/details/plastic-hugs-emptiness'
             target='_blank'
@@ -350,7 +370,7 @@ const WorksPage = () => {
         <ListItem>
           <em>You, just a Person Made of Pastic</em>, for violin, clarinet and
           piano (May 2020) – Premiered by <em>Zodiac</em> Trio at the DiMenna
-          Center of New York on October 28th 2021{' '}
+          Center of New York, October 28, 2021 (NY, US){' '}
           <a
             href='https://archive.org/details/you-just-a-person-made-of-plastic-full'
             target='_blank'
@@ -361,23 +381,22 @@ const WorksPage = () => {
           </a>
         </ListItem>
         <ListItem>
-          <em>Pleberio’s Weeping</em>, fixed media, computer-generated sound
-          (May 2020)
+          <em>Pleberio’s Weeping</em>, computer-generated sound (May 2020)
         </ListItem>
         <ListItem>
           <em>Stunt Fall no. 6; Relative Distance</em>, for flute and
           computer-generated sound (April 2020) – Premiered remotely by
-          Francisco Rojas Huertas in 2020
+          Francisco Rojas Huertas, 2020
         </ListItem>
         <ListItem>
           <em>Abstractions II</em>, for bassoon and piano (February 2020) –
           Premiered by Manuel Angulo at the 6th National Congress of{' '}
-          <em>AFOES</em> in Barcelona, on September 3rd 2022
+          <em>AFOES</em>, September 3, 2022 (Barcelona, Spain)
         </ListItem>
         <ListItem>
           <em>Abstractions IIb</em>, for violin and piano (arrangement) –
-          Premiered by Yonatan Quemado and Niina Ranta at the Hietsun Paviljonki
-          (Helsinki), on May 27th 2021{' '}
+          Premiered by Yonatan Quemado and Niina Ranta at the Hietsun
+          Paviljonki, May 27, 2021(Helsinki, Finland){' '}
           <a
             href='https://archive.org/details/abstractions-IIb'
             target='_blank'
@@ -402,8 +421,9 @@ const WorksPage = () => {
         </ListItem>
         <ListItem>
           <em>Dos Fughettas</em> or violin and piano, (arrangement of{' '}
-          <em>on A</em> and <em>on B</em> from <em>Midnight Fugues</em>) – Nor
-          performed{' '}
+          <em>on A</em> and <em>on B</em> from <em>Midnight Fugues</em>) –
+          Premiered by <em>Grupo Cosmos 21</em>, February 28, 2024 (Madrid,
+          Spain){' '}
           <a
             href='https://archive.org/details/midnight-fugues'
             target='_blank'
@@ -429,7 +449,8 @@ const WorksPage = () => {
         <ListItem>
           <em>Overthinking III</em>, for flute, viola, bassoon, cello and piano
           (September 2019) – Premiered by the Contemporary music ensemble of the
-          Royal Higher Conservatory of Music of Madrid, on December 19th 2019{' '}
+          Royal Higher Conservatory of Music of Madrid, December 19, 2019
+          (Madrid, Spain){' '}
           <a
             href='https://archive.org/details/overthinking-III'
             target='_blank'
@@ -441,8 +462,8 @@ const WorksPage = () => {
         </ListItem>
         <ListItem>
           <em>La mar cuajada</em>, for symphonic band (August 2019) – Premiered
-          by the Symphonic Band <em>Ateneo Musical de Mieres</em> in Asturias
-          (Spain), on March 8th 2020{' '}
+          by the Symphonic Band <em>Ateneo Musical de Mieres</em>, March 8, 2020
+          (Asturias, Spain){' '}
           <a
             href='https://archive.org/details/la-mar-cuajada'
             target='_blank'
@@ -454,8 +475,8 @@ const WorksPage = () => {
         </ListItem>
         <ListItem>
           <em>Overthinking I c</em>, for viola, cello, bass clarinet, percussion
-          and piano (August 2019) – Premiered at the at Queen Sophia Museum in
-          Madrid on November 18th 2019{' '}
+          and piano (August 2019) – Premiered at the at Queen Sophia Museum,
+          November 18, 2019 (Madrid, Spain){' '}
           <a
             href='https://archive.org/details/overthinking-Ic'
             target='_blank'
@@ -466,12 +487,13 @@ const WorksPage = () => {
           </a>
         </ListItem>
         <ListItem>
-          <em>Overthinking II</em>, for flute and loop station (July 2019)
+          <em>Overthinking II</em>, for flute and loop station (July 2019) - Not
+          performed
         </ListItem>
         <ListItem>
           <em>Algo (Something)</em>, for violin, clarinet, cello and piano (June
-          2019) – Premiered by the Ensemble <em>ACIM</em> in Málaga (Spain), on
-          October 5th 2019{' '}
+          2019) – Premiered by the Ensemble <em>ACIM</em>, October 5, 2019
+          (Málaga, Spain){' '}
           <a
             href='https://archive.org/details/algo_20230413'
             target='_blank'
@@ -495,8 +517,8 @@ const WorksPage = () => {
         </ListItem>
         <ListItem>
           <em>Logbook, seven daily reflections</em>, for symphony orchestra
-          (arrangement) – Premiered by Málaga’s Philharmonic Orchestra in
-          Málaga, <em>Teatro Cervantes</em>, on May 12th and 13th 2022{' '}
+          (arrangement) – Premiered by Málaga’s Philharmonic Orchestra, May 12,
+          2022 (Málaga, Spain){' '}
           <a
             href='https://archive.org/details/logbook_202304'
             target='_blank'
@@ -509,7 +531,7 @@ const WorksPage = () => {
         <ListItem>
           <em>Edades (Ages)</em>, for wind quintet and piano (January 2019) –
           Premiered by <em>Glauka</em> Quintet at the Royal Higher Conservatory
-          of Music of Granada (Spain), in July 2019{' '}
+          of Music "Victoria Eugenia", July 2019 (Granada, Spain){' '}
           <a
             href='https://archive.org/details/edades_202304'
             target='_blank'
@@ -521,7 +543,7 @@ const WorksPage = () => {
         </ListItem>
       </ul>
     </Section>
-  )
-}
+  );
+};
 
-export default WorksPage
+export default WorksPage;

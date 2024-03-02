@@ -1,7 +1,7 @@
-import Contact from './sections/Contact'
-import HomePageMedia from './sections/HomePageMedia'
-import Introduction from './sections/Introduction'
-import ShortAbout from './sections/ShortAbout'
+import Contact from './sections/Contact';
+import HomePageMedia from './sections/HomePageMedia';
+import Introduction from './sections/Introduction';
+import ShortAbout from './sections/ShortAbout';
 
 const HomePage = () => {
   return (
@@ -9,9 +9,9 @@ const HomePage = () => {
       <Introduction />
       <ShortAbout />
       <HomePageMedia />
-      <Contact />
+      <Contact hideImage />
     </>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
