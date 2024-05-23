@@ -1,20 +1,20 @@
-import React from 'react';
-import { FaFacebook } from 'react-icons/fa';
-import { ImSoundcloud2, ImGithub } from 'react-icons/im';
-import Image from 'next/image';
+import React from 'react'
+import { FaFacebook } from 'react-icons/fa'
+import { ImSoundcloud2, ImGithub } from 'react-icons/im'
+import Image from 'next/image'
 
-import Article from '@/components/Article';
-import Section from '@/components/Section';
-import ContactPhoto from '@/../public/assets/foto-contact.jpg';
+import Article from '@/components/Article'
+import Section from '@/components/Section'
+import ContactPhoto from '@/../public/assets/foto-contact.jpg'
 
 type ContactType = {
-  hideImage?: boolean;
-};
+  hideImage?: boolean
+}
 
 const Contact = ({ hideImage = false }: ContactType) => {
   return (
     <Section id='contact'>
-      <div className='flex gap-20'>
+      <div className='flex flex-col gap-20 justify-center items-center lg:flex-row'>
         {!hideImage && (
           <div className='flex items-center justify-center mb-6 max-w-sm flex-col'>
             <Image
@@ -68,7 +68,7 @@ const Contact = ({ hideImage = false }: ContactType) => {
         </Article>
       </div>
     </Section>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
