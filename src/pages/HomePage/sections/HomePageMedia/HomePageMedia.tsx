@@ -32,7 +32,7 @@ const Media = () => {
           <YoutubeCaptionPair
             url='https://www.youtube.com/watch?v=mq7E79WxZYg'
             caption={
-              '"I don\'t expect anything from this afternoon", for violin, bass clarinet, violoncello and percussio (2023) – Norrbotten NEO'
+              '"I don\'t expect anything from this afternoon", for violin, bass clarinet, violoncello and percussion (2023) – Norrbotten NEO at Time of Music Festival 2023'
             }
           />
         </div>

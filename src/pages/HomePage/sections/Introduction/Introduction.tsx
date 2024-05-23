@@ -39,8 +39,9 @@ const Introduction = () => {
           technocracy and administrative deception.
           <br />
           <br />
-          My work as an artist is focused on the problematization of
-          socio-temporal logics, mostly through sound. I intend to create
+          My work as an artist is focused on the problematization and
+          denormalization of productivity as the main socio-temporal logic of
+          our time. I do this mostly through sound: I intend to create
           situations of sonic "underload" where the listener can linger over
           reflection and contemplation. I believe in quietness, sparseness and
           simplicity to overcome the excess of information, fragmentation of the
@@ -49,9 +50,9 @@ const Introduction = () => {
           <em>
             to look better in order to see, to listen better in order to hear
           </em>{' '}
-          (Éliane Radigue, "The Mysterious Power of the Infinitesimal"): the
+          (Éliane Radigue, "The Mysterious Power of the Infinitesimal"): The
           biggest step of my journey as an artist was to become conscious that I
-          am not conscious.
+          am not conscious, and to strive for being conscious.
           <br />
           <br />
           I intend to understand and exist in the present through artistic
@@ -64,8 +65,8 @@ const Introduction = () => {
           <em>
             ...Promoting resting as a social action. We shouldn't rest to become
             blind and deaf, but to ease the opening of eyes and ears amid the
-            overload of today’s reality... ...If anybody is sleepy, let them go
-            to sleep...
+            culture of the overload and systematic growth of today's reality...
+            ...If anybody is sleepy, let them go to sleep...
           </em>{' '}
           <br />
           <br />
@@ -77,12 +78,14 @@ const Introduction = () => {
         <Paragraph>
           Thanks to Jean-Paul Sartre for <span className='italic'>Nausea</span>,
           John Kennedy Toole for{' '}
-          <span className='italic'>A Confederacy of Dunces</span>, and John
-          Steinbeck for <span className='italic'>The Grapes of Wrath</span>.
+          <span className='italic'>A Confederacy of Dunces</span>, John
+          Steinbeck for <span className='italic'>The Grapes of Wrath</span>, and
+          José Luis Sampedro for{' '}
+          <span className='italic'>El río que nos lleva</span>.
           <br />
           <br />
           Thanks to Galina Ustvolskaya, the truest composer, and to Éliane
-          Radigue, Eva-Maria Houben and Jakob Ullmann for defying the immediacy
+          Radigue, Eva-Maria Houben and Jakob Ullmann, for defying the immediacy
           era.
           <br />
           <br />

@@ -14,13 +14,17 @@ const About = () => {
           am a composer and sound artist based in Helsinki (Finland). I
           completed my Master's Degree in Electroacoustic Composition in 2020 in
           Madrid (Spain) and my Master of Music in Composition in 2022 at the
-          Sibelius Academy of the University of the Arts Helsinki (Finland).
-          Currently, I continue my studies at the Sibelius Academy as a
-          preparatory doctoral student at DocMus Doctoral School. My artistic
-          research project is focused on the creation of situations of sonic
-          underload as a response to the primacy of speed of production,
-          consumption, optimization, and connectivity in today's mass-market
-          society.
+          Sibelius Academy of the University of the Arts Helsinki (Finland). I
+          recently got acepted as a doctoral candidate in the Arts Study
+          Programme of DocMus Doctoral School at the Sibelius Academy. My
+          artistic research project is titled{' '}
+          <em>
+            Nothing much; Denormalizing Productivity through Sonic Underload
+          </em>
+          . My objective is to investigate and question, through the
+          compositional process, the normalization of a culture of the overload,
+          whose main consequence is the lack of space for a reflexive
+          construction of the self.
         </Paragraph>
         <SeeMore to='/about-me'>See more about me {'>>'}</SeeMore>
       </Article>

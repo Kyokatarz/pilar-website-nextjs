@@ -44,9 +44,13 @@ const FullAbout = () => {
           <SubSectionHeader level={2}>Education</SubSectionHeader>
           <ul className='text-justify'>
             <ListItem>
-              Preparatory doctoral student in Composition at DocMus Doctoral
+              Doctoral candidate, Arts Study Programme, at DocMus Doctoral
               School of the Sibelius Academy, University of the Arts Helsinki
               (Finland, ongoing)
+            </ListItem>
+            <ListItem>
+              Preparatory doctoral student at DocMus Doctoral School of the
+              Sibelius Academy, University of the Arts Helsinki (Finland, 2024)
             </ListItem>
             <ListItem>
               Master of Music in Composition at the Sibelius Academy, University
@@ -84,27 +88,31 @@ const FullAbout = () => {
             <Paragraph>
               My current artistic research project is called{' '}
               <em>
-                Barely Anything; Problematizing Socio-Temporal Logics through
-                Sonic Underload
+                Nothing Much; Denormalizing Productivity through Sonic Underload
               </em>
-              . In this project, I aim at the creation of situations of sonic
-              underload, that is, situations in which we may receive less than
-              we expect in terms of sound. This artistic practice seeks to
-              respond to a shared social preoccupation related to temporal
-              perception. We currently live in a society where there is a
-              primacy for speed in processes such as production, consumption,
-              optimization, or connectivity. The pace and amount of information
-              and stimuli we constantly receive create a continuous overloading
-              and overfeeding that can hinder our perception of the world, its
-              analysis, and the subsequent creation of our own principles to
-              believe and rely on. It is my objective that, within a situation
-              of sonic underload, listeners find a space where priorities
-              change: things that have to be left apart in the context of the
-              hurried everyday life become (temporarily) possible. Such is the
-              case of reflecting, contemplating, or simply staying and resting.
-              The utmost aim for the listener is to apply this approach to
-              perception beyond my concerts, being able to encounter continuity,
-              depth, and meaning in this hectic world.
+              . In this project, I aim at exploring the concept of "sonic
+              underload" for the problematization and subsequent denormatization
+              of productivity. Productivity is understood here as the main
+              socio-temporal logic of the mass-market society in the context of
+              late capitalism. My objective is to investigate and question the
+              normalization of a culture of the overload, characterized by
+              overproduction, overconsumption, and the immediacy of optimization
+              in the context of a socio-economic system whose structural
+              characteristic is systematic growth. The main consequence of this
+              situation is the impossibility of reflexively constructing the
+              self. In the face of this context, I will attempt to pursue my own
+              reflexive construction through the artistic practice of
+              performative experiences related to unproductive behavior. I
+              intend to use the analysis of these experiences as a creative tool
+              for the compositional process of situations of sonic underload,
+              that is, situations in which the expectations, that is, the norm,
+              related to the amount of sonic information for the listener might
+              be challenged, possibly triggering a reflection on the
+              normalization of overload as the structural feature of everyday
+              life and the capacity of the self to develop as a reflexive self:
+              a subject with the capacity of owning an autonomous consciousness,
+              allowing the creation of own principles on which one can rely and
+              upon which one decides to act.
             </Paragraph>
           </ul>
           <br />
@@ -126,16 +134,19 @@ const FullAbout = () => {
             2022 at the IRCAM in Paris (France), or the VI VANG series of
             CentroCentro in Madrid (Spain). My most recent recognition was the
             First Prize of the Young Composers Award organized by SGAE-CNDM in
-            Madrid (November 2023), thanks to which I will be the resident
-            composer of the Spanish Musical Youth Network (JME) during the
-            2024/25 season. I have collaborated as a co-teacher of the
-            SuperCollider programming course organized by the Music Technology
-            department of the Sibelius Academy since 2023. During 2023-24, I
-            have also been invited by the Ulysses Network to join the Ulysses
-            Journeys for young composers, attending composition courses at
-            Viitasaari, Hamburg, and Barcelona. I am currently working on a
-            text-based work (the so-called <em>book</em>), and sometimes I dust
-            off my flute and my collage notebook.
+            Madrid (November 2023), thanks to which I am the current resident
+            composer of the Spanish Musical Youth Network (JME) for the 2024/25
+            season. I collaborate as a co-teacher of the SuperCollider
+            programming workshop organized by the Music Technology department of
+            the Sibelius Academy since 2023. During 2023-24, I have also been
+            invited by the Ulysses Network to join the Ulysses Journeys for
+            young composers, attending composition courses in Viitasaari,
+            Hamburg, and Barcelona. In September 2024 I will visit Georgia Tech
+            University in Atlanta as part of my participation in the program
+            Spanish Young Music Talents organized by the cultural area of the
+            Embassy of Spain in Washington DC. From time to time, I dust off my
+            extra-official text-based work (the so-called <em>book</em>), my
+            flute, and my collage notebook.
           </Paragraph>
           <div className='mt-10 mb-10 w-full text-left border-black border-4 p-4 lg:hidden'>
             <Paragraph>

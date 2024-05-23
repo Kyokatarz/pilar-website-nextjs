@@ -83,6 +83,9 @@ const MediaPage = () => {
           artist statement
         </Link>{' '}
         to get an idea of what I could be up to for upcoming creations.
+        <br />
+        You can take a look as well at the end of this page for a list of
+        upcoming premieres.
       </span>
       <br />
       <div className='w-full flex flex-col md:flex-row md:flex-wrap md:justify-center'>
@@ -130,13 +133,24 @@ const MediaPage = () => {
         <ul className='mt-8' id='premiers'>
           <ListItem>
             "Music to watch a puddle dry" (2024), for flute and tape - To be
-            premiered by Francisco Rojas in Gent, Belgium, in June 2024
+            premiered by Francisco Rojas in Gent, Belgium, on June 16, 2024
           </ListItem>
           <ListItem>
             "Brief Requiem for the Poets and Prayers" (2022), for chamber
             orchestra – To be premiered by Avanti! Chamber Orchestra at
             Sovisoitto (Summer Sounds Festival) on June 30, 2024 (Porvoo,
             Finland)
+          </ListItem>
+          <ListItem>
+            "My grandpa used to braid esparto grass for hours under the shadow
+            of the fig tree", for symphony orchestra (2024) - To be premiered by
+            Georgia Tech Symphony Orchestra at Georgia Tech University in
+            Atlanta, US, on September 19, 2024
+          </ListItem>
+          <ListItem>
+            "Music with backs turned", for violin, double bass and piano (2024)
+            - To be premiered at the Spanish Embassy in Washington DC, US, on
+            September 25, 2024
           </ListItem>
           <ListItem>
             "Music for a potted plant" (2024), for classical guitar - To be
@@ -155,11 +169,11 @@ const MediaPage = () => {
             Musical Youth Network)
           </ListItem>
           <ListItem>
-            New work for percussion duo (2024-25) - To be premiered by Duo
-            Stèles (Guillem Serrano and Ismael Azidane) in Cerezales (León,
-            Spain) in February 2025 as part of my composition residency at{' '}
-            <em>Red de Juventudes Musicales de España</em> (Spanish Musical
-            Youth Network)
+            "En aquel cortijo no había luz", for percussion duo (2024) - To be
+            premiered by Duo Stèles (Guillem Serrano and Ismael Azidane) in
+            Cerezales (León, Spain) in February 2025 as part of my composition
+            residency at <em>Red de Juventudes Musicales de España</em> (Spanish
+            Musical Youth Network)
           </ListItem>
         </ul>
       </div>
