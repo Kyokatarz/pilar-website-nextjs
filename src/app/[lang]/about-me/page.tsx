@@ -1,4 +1,4 @@
-import AboutMePage from '../../pages/AboutMePage'
+import AboutMePage from '../../../pages/AboutMePage'
 
 const AboutMe = () => {
   return <AboutMePage />
