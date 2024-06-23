@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer/Footer'
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,5 +19,17 @@ export default function RootLayout({
   children: React.ReactNode
   params: { lang: string }
 }) {
-  return <>{children}</>
+  return (
+    <html lang={lang}>
+      {/* insert favicon */}
+      <head>
+        <link rel='icon' href='/favicon.ico' sizes='any' />
+      </head>
+      <body>
+        <Navbar lang={lang} />
+        <main className='pt-14 min-h-screen'>{children}</main>
+        <Footer />
+      </body>
+    </html>
+  )
 }

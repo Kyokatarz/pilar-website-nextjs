@@ -1,24 +1,15 @@
 import Link from 'next/link'
+import langNavGenerator from '../../utils/langNavGenerator'
 
-const DesktopNavLinks = () => {
+const DesktopNavLinks = ({ lang }: { lang: string }) => {
+  const langNavItems = langNavGenerator(lang)
   return (
     <ul className='hidden text-black md:flex h-full flex-row gap-x-16 justify-end px-6 items-center'>
-      {/* Using <a> tag to prevent scrolling to top */}
-      <a href='/#landing-introduction'>
-        <li>Home</li>
-      </a>
-      <Link href='/about-me'>
-        <li>About me</li>
-      </Link>
-      <Link href='/works'>
-        <li>Works</li>
-      </Link>
-      <Link href='/media'>
-        <li>Media</li>
-      </Link>
-      <Link href='/contact-me'>
-        <li>Contact</li>
-      </Link>
+      {langNavItems.map((item) => (
+        <Link href={item.href} key={item.href}>
+          <li>{item.label}</li>
+        </Link>
+      ))}
     </ul>
   )
 }
