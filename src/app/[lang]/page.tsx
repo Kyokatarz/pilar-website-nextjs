@@ -8,7 +8,7 @@ const LangRoot = ({ params: { lang } }: { params: { lang: string } }) => {
   const allowedLangs = ['en', 'es']
 
   if (allowedLangs.includes(lang)) {
-    return <HomePage />
+    return <HomePage lang={lang} />
   }
 
   const preferredLangs = headers().get('Accept-Language')

@@ -1,13 +1,16 @@
-import React from 'react';
-import Image from 'next/image';
+import Image from 'next/image'
+import HTMLParser from 'react-html-parser'
 
-import SubSectionHeader from '@/components/SubSectionHeader';
-import Paragraph from '@/components/Paragraph';
-import Article from '@/components/Article';
-import Section from '@/components/Section';
-import TheUgly from '@/../public/assets/foto-horizontal.jpg';
+import SubSectionHeader from '@/components/SubSectionHeader'
+import Paragraph from '@/components/Paragraph'
+import Article from '@/components/Article'
+import Section from '@/components/Section'
+import TheUgly from '@/../public/assets/foto-horizontal.jpg'
+import getDictionary from '../../../../dictionaries/getDictionary'
+import RichText from '../../../../components/RichText'
 
-const Introduction = () => {
+const Introduction = ({ lang }: { lang: string }) => {
+  const dictionary = getDictionary(lang)
   return (
     <Section id='landing-introduction'>
       <div className='flex items-center justify-center mb-6 max-w-sm flex-col'>
@@ -22,56 +25,21 @@ const Introduction = () => {
           <h1 className='text-4xl text-black mb-6 text-center '>
             <span>PILAR MIRALLES</span> <br />
             <span className='text-2xl italic text-gray-600'>
-              composer / sound artist
+              {dictionary.page.home.introduction.jobTitle}
             </span>
           </h1>
         </header>
 
         <SubSectionHeader id='statement' level={2}>
-          Artist statement
+          {dictionary.page.home.introduction.paragraph.artistStatement.header}
         </SubSectionHeader>
-        <Paragraph>
-          I would like to question our approach to artistic expression in the
-          mass-market era, our capacity to perceive and interpret the world and
-          the self, and our subsequent consciousness and freedom. I dream about
-          and work for a new way of creation, interpretation and reception of
-          art within an environment free of market domination, academic
-          technocracy and administrative deception.
-          <br />
-          <br />
-          My work as an artist is focused on the problematization and
-          denormalization of productivity as the main socio-temporal logic of
-          our time. I do this mostly through sound: I intend to create
-          situations of sonic "underload" where the listener can linger over
-          reflection and contemplation. I believe in quietness, sparseness and
-          simplicity to overcome the excess of information, fragmentation of the
-          present, and immediacy of production, consumption and optimization of
-          today's everyday life. I train myself{' '}
-          <em>
-            to look better in order to see, to listen better in order to hear
-          </em>{' '}
-          (Éliane Radigue, "The Mysterious Power of the Infinitesimal"): The
-          biggest step of my journey as an artist was to become conscious that I
-          am not conscious, and to strive for being conscious.
-          <br />
-          <br />
-          I intend to understand and exist in the present through artistic
-          creation, focusing on finding a solid ground, presence and intention
-          for my creative necessities. I hope to create opportunities to
-          encounter continuity, depth and meaning in this hectic world for me
-          and others.
-          <br />
-          <br />
-          <em>
-            ...Promoting resting as a social action. We shouldn't rest to become
-            blind and deaf, but to ease the opening of eyes and ears amid the
-            culture of the overload and systematic growth of today's reality...
-            ...If anybody is sleepy, let them go to sleep...
-          </em>{' '}
-          <br />
-          <br />
-          <br />
-          <br />
+        <Paragraph className='mb-12'>
+          <RichText>
+            {
+              dictionary.page.home.introduction.paragraph.artistStatement
+                .richTextContent
+            }
+          </RichText>
         </Paragraph>
 
         <SubSectionHeader level={2}>Acknowledgments</SubSectionHeader>
@@ -124,7 +92,7 @@ const Introduction = () => {
         </p>
       </Article>
     </Section>
-  );
-};
+  )
+}
 
-export default Introduction;
+export default Introduction
