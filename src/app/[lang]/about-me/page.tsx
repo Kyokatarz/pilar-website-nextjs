@@ -1,7 +1,10 @@
-import AboutMePage from '../../../pages/AboutMePage'
+import AboutMePage from "../../../pages/AboutMePage";
 
-const AboutMe = () => {
-  return <AboutMePage />
+export default function AboutMe({
+  params: { lang },
+}: {
+  params: { lang: string };
+}) {
+  console.log({ lang });
+  return <AboutMePage lang={lang} />;
 }
-
-export default AboutMe

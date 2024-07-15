@@ -4,39 +4,58 @@ const esDict: Dictionary = {
   page: {
     home: {
       introduction: {
-        jobTitle: 'hehe / sound artist',
+        jobTitle: 'composer / sound artist',
         paragraph: {
           artistStatement: {
-            header: 'Artista',
-            richTextContent: `Me gustaría cuestionar nuestro enfoque de la expresión artística en el
-            era del mercado de masas, nuestra capacidad de percibir e interpretar el mundo y
-            el yo y nuestra posterior conciencia y libertad. sueño con
-            y trabajar por una nueva forma de creación, interpretación y recepción de
-            arte en un entorno libre de dominación del mercado, académico
-            tecnocracia y engaño administrativo.<br/><br/>
-            Mi trabajo como artista se centra en la problematización y
-            desnormalización de la productividad como principal lógica sociotemporal de
-            nuestro tiempo. Hago esto principalmente a través del sonido: tengo la intención de crear
-            situaciones de "subcarga" sonora en las que el oyente puede detenerse
-            reflexión y contemplación. Creo en la tranquilidad, la escasez y
-            simplicidad para superar el exceso de información, la fragmentación de la
-            presente, e inmediatez de producción, consumo y optimización de
-            la vida cotidiana de hoy. Me entreno <em> para lucir mejor para poder ver,
-            escuchar mejor para oír</em> (Éliane Radigue, "El misterioso poder de lo infinitesimal"):
-            El paso más grande de mi viaje como artista fue tomar conciencia de que
-            no soy consciente y esforzarme por ser consciente.<br/><br/>
-            Pretendo entender y existir en el presente a través del arte.
-            creación, centrándose en encontrar una base sólida, presencia e intención
-            para mis necesidades creativas. Espero crear oportunidades para
-            encontrar continuidad, profundidad y significado en este mundo agitado para mí
-            y otros.<br/><br/>
+            header: 'Artist statement',
+            richTextContent: `
+            I would like to question our approach to artistic expression in the
+            mass-market era, our capacity to perceive and interpret the world and
+            the self, and our subsequent consciousness and freedom. I dream about
+            and work for a way of creation, interpretation, and reception of
+            art within an environment free of market domination, academic
+            technocracy. and administrative deception.<br/><br/>
+            My work as an artist is focused on the problematization and
+            denormalization of productivity as the main socio-temporal logic of
+            our time (<em>do more, do faster, do better</em>). I do this mostly through sound: I intend to create
+            situations of sonic "underload" where the listener can linger over
+            reflection and contemplation. I believe in quietness, sparseness, and
+            simplicity to overcome the excess of information, fragmentation of the
+            present, and immediacy of production, consumption, and optimization of
+            today's everyday life. I train myself <em> to look better in order to see,
+            to listen better in order to hear</em> (Éliane Radigue, "The Mysterious Power of the Infinitesimal"):
+            The biggest step of my journey as an artist was to become conscious that I
+            am not conscious, and to strive for being conscious.<br/><br/>
+            I intend to understand and exist in the present through artistic
+            creation, focusing on finding a solid ground, presence, and intention
+            for my creative necessities. I hope to create opportunities to
+            encounter continuity, depth, and meaning in this hectic world for me
+            and others.<br/><br/>
             <em>
-            ...Promover el descanso como acción social. No deberíamos descansar para convertirnos
-            ciego y sordo, sino para facilitar la apertura de ojos y oídos en medio de la
-            cultura de la sobrecarga y crecimiento sistemático de la realidad actual...
-            ...Si alguien tiene sueño, que se vaya a dormir...
-            </em>`,
+            ...Promoting resting as a social action. We shouldn't rest to become
+            blind and deaf, but to ease the opening of eyes and ears amid the
+            culture of the overload and systematic growth of today's reality...
+            ...If anybody is sleepy, let them go to sleep...</em>`
           },
+          acknowledgment: {
+            header: 'Acknowledgments',
+            richTextContent: ` Thanks to Jean-Paul Sartre for <em>Nausea</em>, John Kennedy Toole for
+          <em>A Confederacy of Dunces</em>, John Steinbeck for <em>The Grapes of Wrath</em>, and
+          José Luis Sampedro for <em>El río que nos lleva</em>.
+          <br />
+          <br />
+          Thanks to Galina Ustvolskaya, the truest composer, and to Éliane
+          Radigue, Eva-Maria Houben, and Jakob Ullmann for defying the immediacy
+          era.
+          <br />
+          <br />
+          Thanks to Dada (<em>dada m'dada, dada m'dada dada mhm, dada dera dada, dada Hue, dada
+            Tza</em>). Thanks to Fluxus. Thanks to what is meaningless, useless, and empty according to the mass-market society.
+          <br />
+          <br />
+         And thanks to all artists yet to be discovered, lost in the ocean of information, that will guide and inspire my work 
+         at some point. I am constantly searching for you.`
+          }
         },
       },
     },
