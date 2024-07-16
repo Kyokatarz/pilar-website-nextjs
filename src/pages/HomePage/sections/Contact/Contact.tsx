@@ -10,12 +10,10 @@ import getDictionary from "@/dictionaries/getDictionary";
 
 type ContactType = {
   hideImage?: boolean;
+  lang: string;
 };
 
-const Contact = (
-  { hideImage = false }: ContactType,
-  { lang }: { lang: string }
-) => {
+const Contact = ({ hideImage = false, lang }: ContactType) => {
   const dictionary = getDictionary(lang);
   return (
     <Section id="contact">

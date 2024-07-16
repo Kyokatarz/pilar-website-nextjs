@@ -7,6 +7,7 @@ import SeeMore from "@/components/SeeMore";
 import { dedbirbSoundCloud } from "../../../../../constants/soundCloud";
 import SoundCloudIframe from "@/components/SoundCloudIframe";
 import dynamic from "next/dynamic";
+import getDictionary from "@/dictionaries/getDictionary";
 
 const YoutubeCaptionPair = dynamic(
   () => import("@/components/YoutubeCaptionPair/YoutubeCaptionPair"),

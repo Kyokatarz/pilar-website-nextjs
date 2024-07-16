@@ -53,21 +53,22 @@ const Introduction = ({ lang }: { lang: string }) => {
                 .richTextContent
             }
           </RichText>
-        </Paragraph>
-        <br />
-        <br />
-        <p className={"italic text-left"}>
-          This open-source website has been kindly designed and developed by{" "}
+          <RichText>
+            {dictionary.page.home.introduction.paragraph.dev1}
+          </RichText>
           <a
             href="https://fi.linkedin.com/in/giang-tran97"
             target="_blank"
             rel="noreferrer"
-            className="text-blue-500"
+            className="text-blue-500 italic"
           >
             Giang Tran{" "}
           </a>
-          <span className="not-italic">😎</span>. Still a work in progress!
-        </p>
+          <span className="not-italic">😎</span>.
+          <RichText>
+            {dictionary.page.home.introduction.paragraph.dev2}
+          </RichText>
+        </Paragraph>
       </Article>
     </Section>
   );
