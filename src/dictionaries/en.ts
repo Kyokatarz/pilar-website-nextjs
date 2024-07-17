@@ -63,6 +63,10 @@ const enDict = {
           dev2: `<em> Still a work in progress!</em>`,
         },
       },
+      shortAbout: {
+        header: `Hi!`,
+        richTextContent: {},
+      },
     },
   },
 };

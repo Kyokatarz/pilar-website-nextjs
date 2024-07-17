@@ -58,8 +58,12 @@ const esDict: Dictionary = {
             <br />`,
           },
           dev1: `<em>Esta web de código abierto ha sido amablemente diseñada y desarrollada por </em>`,
-          dev2: `<em> ¡Es todavía un trabajo en proceso!</em>`,
+          dev2: `<em> ¡Es aún un trabajo en proceso!</em>`,
         },
+      },
+      shortAbout: {
+        header: `¡Hola!`,
+        richTextContent: {},
       },
     },
   },

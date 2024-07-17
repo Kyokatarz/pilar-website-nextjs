@@ -10,7 +10,9 @@ const About = ({ lang }: { lang: string }) => {
   return (
     <Section>
       <Article>
-        <h1 className="text-5xl font-bold text-left mb-4">Hi!</h1>
+        <h1 className="text-5xl font-bold text-left mb-4">
+          {dictionary.page.home.shortAbout.header}
+        </h1>
         <Paragraph>
           My name is Pilar Miralles and I was born in Almería (Spain) in 1997. I
           am a composer and sound artist currently based in Helsinki (Finland).
