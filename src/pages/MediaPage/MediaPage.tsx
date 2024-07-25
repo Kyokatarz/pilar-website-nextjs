@@ -153,18 +153,18 @@ const MediaPage = () => {
             Finland, in the Autumn 2024
           </ListItem>
           <ListItem>
-            "Agüilla fresca", for euphonium and fountain (2024) - To be
-            premiered by Raúl Sabiote in Cerezales (León, Spain) in October 2024
-            as part of my composition residency at{" "}
-            <em>Red de Juventudes Musicales de España</em> (Spanish Musical
-            Youth Network)
-          </ListItem>
-          <ListItem>
             "En aquel cortijo no había luz", for percussion duo (2024) - To be
             premiered by Duo Stèles (Guillem Serrano and Ismael Azidane) in
-            Cerezales (León, Spain) in February 2025 as part of my composition
+            Cerezales (León, Spain) in October 2024 as part of my composition
             residency at <em>Red de Juventudes Musicales de España</em> (Spanish
             Musical Youth Network)
+          </ListItem>
+          <ListItem>
+            "Agüilla fresca", for euphonium and fountain (2024) - To be
+            premiered by Raúl Sabiote in Cerezales (León, Spain) in February
+            2025 as part of my composition residency at{" "}
+            <em>Red de Juventudes Musicales de España</em> (Spanish Musical
+            Youth Network)
           </ListItem>
         </ul>
       </div>
