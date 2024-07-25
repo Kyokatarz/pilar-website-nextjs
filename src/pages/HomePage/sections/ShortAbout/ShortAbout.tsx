@@ -1,32 +1,35 @@
-import React from 'react';
-import Article from '@/components/Article';
-import Paragraph from '@/components/Paragraph';
-import Section from '@/components/Section';
-import SeeMore from '@/components/SeeMore';
+import React from "react";
+import Article from "@/components/Article";
+import Paragraph from "@/components/Paragraph";
+import Section from "@/components/Section";
+import SeeMore from "@/components/SeeMore";
 
 const About = () => {
   return (
     <Section>
       <Article>
-        <h1 className='text-5xl font-bold text-left mb-4'>Hi!</h1>
+        <h1 className="text-5xl font-bold text-left mb-4">Hi!</h1>
         <Paragraph>
           My name is Pilar Miralles and I was born in Almería (Spain) in 1997. I
-          am a composer and sound artist based in Helsinki (Finland). I
-          completed my Master's Degree in Electroacoustic Composition in 2020 in
-          Madrid (Spain) and my Master of Music in Composition in 2022 at the
-          Sibelius Academy of the University of the Arts Helsinki (Finland). I
-          recently got acepted as a doctoral candidate in the Arts Study
-          Programme of DocMus Doctoral School at the Sibelius Academy. My
-          artistic research project is titled{' '}
+          am a composer and sound artist currently based in Helsinki (Finland).
+          I completed my Master's Degrees in Electroacoustic Composition and
+          Composition in Madrid and Helsinki, respectively, and now I am a
+          doctoral candidate in the Arts Study Programme of DocMus Doctoral
+          School, at the Sibelius Academy of the University of the Arts
+          Helsinki. My artistic research project is titled{" "}
           <em>
-            Nothing much; Denormalizing Productivity through Sonic Underload
+            Nothing Much; Denormalizing Productivity through Sonic Underload
           </em>
-          . My objective is to investigate and question, through the
-          compositional process, the normalization of a culture of the overload,
-          whose main consequence is the lack of space for a reflexive
+          . My objective is to investigate and question, through an underloaded
+          compositional practice, the normalization of a culture of the
+          overload, whose main consequence is the lack of space for a reflexive
           construction of the self.
+          <br />
+          <br />
+          My work as a composer has been supported by Teosto, MES, and Pro
+          Musica Säätiö.
         </Paragraph>
-        <SeeMore to='/about-me'>See more about me {'>>'}</SeeMore>
+        <SeeMore to="/about-me">See more about me {">>"}</SeeMore>
       </Article>
     </Section>
   );
