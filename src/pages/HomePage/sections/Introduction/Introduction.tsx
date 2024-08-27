@@ -39,37 +39,23 @@ const Introduction = () => {
           and administrative deception.
           <br />
           <br />
-          My work as an artist is focused on the problematization and
-          denormalization of productivity as the main socio-temporal logic of
-          our time (<em>do more, do faster, do better</em>). I do this mostly
-          through sound: I intend to create situations of sonic "underload"
-          where the listener can linger over reflection and contemplation. I
-          believe in quietness, sparseness, and simplicity to overcome the
-          excess of information, fragmentation of the present, and immediacy of
-          production, consumption, and optimization of today's everyday life. I
-          train myself{" "}
-          <em>
-            to look better in order to see, to listen better in order to hear
-          </em>{" "}
-          (Éliane Radigue, "The Mysterious Power of the Infinitesimal"): The
-          biggest step of my journey as an artist was to become conscious that I
-          am not conscious, and to strive for being conscious.
+          As an artist, I am interested in the perceptive approach to creating
+          situations and in the literalness of perception while inhabiting them,
+          their here and now. I feel that today's reality is a place where
+          productivity and efficiency have been absolutized (
+          <em>do more, do faster, do better</em>). In such a reality, the simple
+          fact of sitting in there and contemplating is so powerful,
+          revolutionary even.
           <br />
           <br />
-          I intend to understand and exist in the present through artistic
-          creation, focusing on finding a solid ground, presence, and intention
-          for my creative necessities. I hope to create opportunities to
-          encounter continuity, depth, and meaning in this hectic world for me
-          and others.
+          In my pieces, I aim to question the normalization of that productive
+          approach to everyday life, which causes us fatigue and distances us
+          from the capacity to reconstruct ourselves as reflexive subjects. I
+          create spaces to practice rest as an end in itself.
           <br />
           <br />
-          <em>
-            ...Promoting resting as a social action. We shouldn't rest to become
-            blind and deaf, but to ease the opening of eyes and ears amid the
-            culture of the overload and systematic growth of today's reality...
-            ...If anybody is sleepy, let them go to sleep...
-          </em>{" "}
-          <br />
+          <em> ...If anybody is sleepy, let them go to sleep...</em> (John Cage,
+          Lecture on Nothing, 1949) <br />
           <br />
           <br />
           <br />
@@ -87,7 +73,7 @@ const Introduction = () => {
           <br />
           Thanks to Galina Ustvolskaya, the truest composer, and to Éliane
           Radigue, Eva-Maria Houben, and Jakob Ullmann for defying the immediacy
-          era.
+          era. Thanks to William Basinski for being <em>nothing</em> enough.
           <br />
           <br />
           Thanks to Dada (

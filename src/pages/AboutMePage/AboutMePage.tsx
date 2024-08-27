@@ -36,9 +36,9 @@ const FullAbout = () => {
         <div className="lg:w-5/12">
           <Paragraph>
             Hi! My name is Pilar Miralles and I was born in Almería (Spain) in
-            1997. I am a composer and sound artist based in Helsinki (Finland).
-            I speak Spanish, English, and a decent French. You can find my
-            artist statement and short bio in the home page.
+            1997. I am a composer and researcher based in Helsinki (Finland). I
+            speak Spanish, English, and a decent French. You can find my artist
+            statement and short bio in the home page.
           </Paragraph>
           <br />
           <SubSectionHeader level={2}>Education</SubSectionHeader>
@@ -73,28 +73,35 @@ const FullAbout = () => {
             <Paragraph>
               My current artistic research project is titled{" "}
               <em>
-                Nothing Much; Denormalizing Productivity through Sonic Underload
+                “Take a nap and change the world”: De-instrumentalizing rest
+                through sonic underload
               </em>
-              , and my main objective is to investigate and question the current
-              normalization of a culture of the overload. This kind of culture
-              is characterized by overproduction, overconsumption, and the
-              immediacy of optimization, being its main cause the productive
-              behavior that is constantly promoted in a socio-economic system
-              whose structural feature is systematic growth: we need to do more,
-              quicker, and better (even though we generally don't know why). My
-              hypothesis is that the main consequence of this is a lack of space
-              to construct ourselves reflexively, that is, in a way that allows
-              us to develop our own principles to decide what to think and how
-              to act in consequence. In the face of this context, I will attempt
-              to undergo such reflexive construction through the composition
-              process, being the main strategy the use of an "unproductive"
-              behavior as a creative tool in order to underload my creative
-              language and bring about situations in which this space for
-              reflection can be perhaps found. These situations will materialize
-              in three doctoral concerts for solo performer, and the
-              documentation of the creative process and its theoretical
-              framework will be articulated in the form of a monograph
-              dissertation and multimedia expositions.
+              , and its practice core is composition. The project's outputs,
+              which include three concert-long multidisciplinary compositions, a
+              dissertation based on the artworks, and a multimedia exposition,
+              gravitate towards the concept of unproductive rest as a response
+              to the overload and fatigue experienced in late capitalism.
+              Cultural theorists such as Jonathan Crary or Byung-Chul Han have
+              described a society of 24/7 availability and self-exploitation
+              leading to the instrumentalization of rest as a productivity
+              enhancer and consumable product. In return, art theorists such as
+              Miguel A. Hernández or Julia Morandeira have reclaimed an
+              alternative understanding of rest as an end in itself. This
+              unproductive rest is an act of passive resistance, a conscious
+              rest that aims instead for self-reflection, inner connection, and
+              a collective awareness of the mutual care and trust underlying our
+              repose. In this project, I propose the composition process as a
+              means of exploring this kind of rest. The objective is to use the
+              autoethnographic analysis of my creative experience and the
+              critical revision of previous artworks to create a series of
+              public multidisciplinary concerts. In these concerts, a space is
+              open where resting can be reflected on and practiced at both the
+              personal and collective levels, focusing on its meaning and
+              purpose. From the compositional point of view, I aim to develop
+              what I call an “underloaded” approach to the procedures and
+              materials of the composition process, leading to a decreased
+              output as a favorable condition for resting and affecting not only
+              sound but also aspects of light or space.
             </Paragraph>
           </ul>
           <br />

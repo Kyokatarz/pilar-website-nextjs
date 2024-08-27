@@ -129,7 +129,7 @@ const MediaPage = () => {
       </div>
 
       <div className="w-full text-left mt-8 border-black border-4 p-4 ">
-        <p className="underline">Upcoming premiers</p>
+        <p className="underline">Upcoming premieres</p>
         <ul className="mt-8" id="premiers">
           <ListItem>
             "My grandpa used to braid esparto grass for hours under the shadow
@@ -139,32 +139,38 @@ const MediaPage = () => {
           </ListItem>
           <ListItem>
             "Music with backs turned", for violin, double bass and piano (2024)
-            - To be premiered at the Spanish Embassy in Washington DC, US, on
-            September 24, 2024
+            - To be premiered by Gerdan Ensemble at the Spanish Cultural Center
+            in Washington DC, US, on September 24, 2024
+          </ListItem>
+          <ListItem>
+            "En aquel cortijo no había luz", for two cowbells (2024) - To be
+            premiered by Duo Stèles (Guillem Serrano and Ismael Azidane) in
+            Cerezales (León, Spain) on October 26, 2024, as part of my
+            composition residency at{" "}
+            <em>Red de Juventudes Musicales de España</em> (Spanish Musical
+            Youth Network)
           </ListItem>
           <ListItem>
             "Music for a potted plant", for classical guitar (2024) - To be
             premiered by Rody van Gemert in Spain (various locations), in the
-            Autumn 2024
+            Winter of 2025
           </ListItem>
           <ListItem>
-            "Lull", for harp and tape (2024) - To be premiered by Maaria Pulakka
-            at her master's concert at the Sibelius Academy in Helsinki,
-            Finland, in the Autumn 2024
-          </ListItem>
-          <ListItem>
-            "En aquel cortijo no había luz", for percussion duo (2024) - To be
-            premiered by Duo Stèles (Guillem Serrano and Ismael Azidane) in
-            Cerezales (León, Spain) in October 2024 as part of my composition
-            residency at <em>Red de Juventudes Musicales de España</em> (Spanish
-            Musical Youth Network)
+            "Sleeping through", for classical guitar, kantele and harpsichord
+            (2024) - To be premiered by Superpluck Trio during the Musica Nova
+            Festival in Helsinki, Finland, in February 2025
           </ListItem>
           <ListItem>
             "Agüilla fresca", for euphonium and fountain (2024) - To be
-            premiered by Raúl Sabiote in Cerezales (León, Spain) in February
-            2025 as part of my composition residency at{" "}
+            premiered by Raúl Sabiote in Cerezales (León, Spain) on February 16,
+            2025, as part of my composition residency at{" "}
             <em>Red de Juventudes Musicales de España</em> (Spanish Musical
             Youth Network)
+          </ListItem>
+          <ListItem>
+            "Lull", for harp and tape (2024) - To be premiered by Maaria Pulakka
+            at her master's recital at the Sibelius Academy in Helsinki,
+            Finland, in the Spring of 2025
           </ListItem>
         </ul>
       </div>

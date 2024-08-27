@@ -28,7 +28,7 @@ const Contact = ({ hideImage = false }: ContactType) => {
           <h1 className='text-4xl font-bold text-left mb-8 w-full'>Contact</h1>
           <p className='text-left mb-8 border-b-2 border-black pb-4 max-w-max'>
             Please, feel free to reach me out for more information about my
-            music, my work or any other enquiry.
+            music or research, or any other enquiry.
           </p>
           <div className='flex flex-col items-start mb-8'>
             <p>
