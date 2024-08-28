@@ -73,8 +73,8 @@ const FullAbout = () => {
             <Paragraph>
               My current artistic research project is titled{" "}
               <em>
-                “Take a nap and change the world”: De-instrumentalizing rest
-                through sonic underload
+                “Take a nap and change the world”: The artistic experience as a
+                space of de-instrumentalized rest
               </em>
               , and its practice core is composition. The project's outputs,
               which include three concert-long multidisciplinary compositions, a
@@ -90,18 +90,18 @@ const FullAbout = () => {
               unproductive rest is an act of passive resistance, a conscious
               rest that aims instead for self-reflection, inner connection, and
               a collective awareness of the mutual care and trust underlying our
-              repose. In this project, I propose the composition process as a
+              repose. In this project, I propose the artistic experience as a
               means of exploring this kind of rest. The objective is to use the
-              autoethnographic analysis of my creative experience and the
+              autoethnographic analysis of my composition process and the
               critical revision of previous artworks to create a series of
               public multidisciplinary concerts. In these concerts, a space is
               open where resting can be reflected on and practiced at both the
               personal and collective levels, focusing on its meaning and
               purpose. From the compositional point of view, I aim to develop
               what I call an “underloaded” approach to the procedures and
-              materials of the composition process, leading to a decreased
-              output as a favorable condition for resting and affecting not only
-              sound but also aspects of light or space.
+              materials of the composition process. This underloaded practice
+              leads to a decreased output as a favorable condition for resting
+              and affects not only sound but also aspects of light or space.
             </Paragraph>
           </ul>
           <br />

@@ -18,8 +18,8 @@ const About = () => {
           School at the Sibelius Academy, University of the Arts Helsinki. My
           artistic research project is titled{" "}
           <em>
-            “Take a nap and change the world”: De-instrumentalizing rest through
-            sonic underload
+            “Take a nap and change the world”: The artistic experience as a
+            space of de-instrumentalized rest
           </em>
           . In this project, I aim to explore through the composition process
           the concept of unproductive rest, that is, rest as an end in itself
