@@ -22,7 +22,7 @@ const Introduction = () => {
           <h1 className="text-4xl text-black mb-6 text-center ">
             <span>PILAR MIRALLES</span> <br />
             <span className="text-2xl italic text-gray-600">
-              composer / sound artist
+              composer / researcher
             </span>
           </h1>
         </header>
