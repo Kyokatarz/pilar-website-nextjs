@@ -18,6 +18,19 @@ const WorksPage = () => {
 
       <ul className="text-justify">
         <ListItem>
+          <em>Music to watch a puddle dry</em>, for flute and tape (December
+          2023) – Premiered at Francisco Rojas' master's recital, June 26, 2024
+          (Gent, Belgium){" "}
+          <a
+            href="https://archive.org/details/music-to-watch-a-puddle-dry"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500"
+          >
+            [PDF, audio track]
+          </a>
+        </ListItem>
+        <ListItem>
           <em>
             Echaron abajo una casita cubierta de hiedra que me gustaba mirar de
             lejos (They tore down a little house covered in ivy that I liked to
