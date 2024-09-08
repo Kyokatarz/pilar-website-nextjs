@@ -18,12 +18,12 @@ const About = () => {
           School at the Sibelius Academy, University of the Arts Helsinki. My
           artistic research project is titled{" "}
           <em>Composer asleep; The creative (non)practice of not-doing</em>
-          . In this project, I aim to rethink what resting means in a world in
-          which everything is profitable. Through the composition of three
-          concert-long works, I seek to transform my agency as a composer who
-          actively produces into a composer who (in)actively recovers and cares
-          in the face of a paradoxical cohabitation of depletion and
-          hyper-abundance.
+          . In this project, I aim to rethink what resting means in the context
+          of a productivity-driven society. Through the composition of three
+          concert-long works, I question the role of the composer as active
+          producer and explore alternative agencies leading to resting and
+          allowing rest in the face of hyper-abundance and the consequent
+          depletion it causes.
           <br />
           <br />
           My work as a composer has been supported by Teosto, MES, and Pro

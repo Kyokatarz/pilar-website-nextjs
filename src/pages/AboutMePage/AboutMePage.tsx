@@ -80,17 +80,17 @@ const FullAbout = () => {
               depletion? These are the questions I depart from in{" "}
               <em>Composer Asleep</em>, an artistic research project based on my
               practice as a composer. In this project, I aim to develop a
-              composition practice based on inactivity with the objective of
-              rethinking the meaning of rest in the context of permanent
-              availability and self-exploitation of late capitalism. This
-              understanding of rest as unproductive interruption to respond to
-              the ongoing depletion crisis leads to a let go of my assumptions
-              about the active role of the composer as producer. Through the
-              composition of three concert-long works, I aim to explore and
+              composition practice based on inactivity to rethink the meaning of
+              rest in the context of permanent availability, self-exploitation,
+              and consequent depletion of late capitalism. The recovery of
+              resting as an unproductive interruption, instead of a means to
+              keep contributing to the hyper-abundance demands, leads me to
+              question the role of the composer as an active producer. Through
+              the composition of three concert-long works, I aim to explore and
               embody alternative (in)active roles of the composer leading
-              instead to recovery and care. These works will be publicly
-              premiered at the Helsinki Music Center and will act as case
-              studies of my doctoral dissertation.
+              instead to resting and allowing to rest. These works will be
+              publicly premiered at the Helsinki Music Center and will act as
+              case studies of my doctoral dissertation.
             </Paragraph>
           </ul>
           <br />
