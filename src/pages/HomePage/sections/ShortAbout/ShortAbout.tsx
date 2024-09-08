@@ -17,18 +17,13 @@ const About = () => {
           doctoral candidate in the Arts Study Programme of DocMus Doctoral
           School at the Sibelius Academy, University of the Arts Helsinki. My
           artistic research project is titled{" "}
-          <em>
-            “Take a nap and change the world”: The artistic experience as a
-            space of de-instrumentalized rest
-          </em>
-          . In this project, I aim to explore through the composition process
-          the concept of unproductive rest, that is, rest as an end in itself
-          rather than a means to enhance our productivity, in the face of a
-          social context of permanent availability and instilled
-          auto-exploitation. The objective is to open spaces where the audience
-          can practice this kind of rest, which aims for self-reflection and
-          inner connection, and is based on the collective awareness of our
-          fatigue.
+          <em>Composer asleep; The creative (non)practice of not-doing</em>
+          . In this project, I aim to rethink what resting means in a world in
+          which everything is profitable. Through the composition of three
+          concert-long works, I seek to transform my agency as a composer who
+          actively produces into a composer who (in)actively recovers and cares
+          in the face of a paradoxical cohabitation of depletion and
+          hyper-abundance.
           <br />
           <br />
           My work as a composer has been supported by Teosto, MES, and Pro

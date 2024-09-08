@@ -135,25 +135,27 @@ const MediaPage = () => {
             "My grandpa used to braid esparto grass for hours under the shadow
             of the fig tree", for symphony orchestra (2024) - To be premiered by
             Georgia Tech Symphony Orchestra at Georgia Tech University in
-            Atlanta, US, on September 19, 2024
+            Atlanta, USA, on September 16, 2024
           </ListItem>
           <ListItem>
             "Music with backs turned", for violin, double bass and piano (2024)
             - To be premiered by Gerdan Ensemble at the Spanish Cultural Center
-            in Washington DC, US, on September 24, 2024
+            in Washington DC, USA, on September 24, 2024
           </ListItem>
           <ListItem>
             "En aquel cortijo no había luz", for two cowbells (2024) - To be
             premiered by Duo Stèles (Guillem Serrano and Ismael Azidane) in
             Cerezales (León, Spain) on October 26, 2024, as part of my
             composition residency at{" "}
-            <em>Red de Juventudes Musicales de España</em> (Spanish Musical
-            Youth Network)
+            <em>Red de Juventudes Musicales de España</em> (Spanish Music Youth
+            Network)
           </ListItem>
           <ListItem>
             "Music for a potted plant", for classical guitar (2024) - To be
-            premiered by Rody van Gemert in Spain (various locations), in the
-            Winter of 2025
+            premiered by Rody van Gemert at the Museum of Spanish Guitar
+            “Antonio de Torres” in Almería (Spain) in January 2025, and in
+            Helsinki’s Temppeliaukio Church as part of the Autumn 2025 concert
+            series of The Finnish Association of Soloists.
           </ListItem>
           <ListItem>
             "Sleeping through", for classical guitar, kantele and harpsichord
@@ -164,8 +166,8 @@ const MediaPage = () => {
             "Agüilla fresca", for euphonium and fountain (2024) - To be
             premiered by Raúl Sabiote in Cerezales (León, Spain) on February 16,
             2025, as part of my composition residency at{" "}
-            <em>Red de Juventudes Musicales de España</em> (Spanish Musical
-            Youth Network)
+            <em>Red de Juventudes Musicales de España</em> (Spanish Music Youth
+            Network)
           </ListItem>
           <ListItem>
             "Lull", for harp and tape (2024) - To be premiered by Maaria Pulakka

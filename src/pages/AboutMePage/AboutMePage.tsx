@@ -71,37 +71,26 @@ const FullAbout = () => {
           </SubSectionHeader>
           <ul className="text-justify">
             <Paragraph>
-              My current artistic research project is titled{" "}
-              <em>
-                “Take a nap and change the world”: The artistic experience as a
-                space of de-instrumentalized rest
-              </em>
-              , and its practice core is composition. The project's outputs,
-              which include three concert-long multidisciplinary compositions, a
-              dissertation based on the artworks, and a multimedia exposition,
-              gravitate towards the concept of unproductive rest as a response
-              to the overload and fatigue experienced in late capitalism.
-              Cultural theorists such as Jonathan Crary or Byung-Chul Han have
-              described a society of 24/7 availability and self-exploitation
-              leading to the instrumentalization of rest as a productivity
-              enhancer and consumable product. In return, art theorists such as
-              Miguel A. Hernández or Julia Morandeira have reclaimed an
-              alternative understanding of rest as an end in itself. This
-              unproductive rest is an act of passive resistance, a conscious
-              rest that aims instead for self-reflection, inner connection, and
-              a collective awareness of the mutual care and trust underlying our
-              repose. In this project, I propose the artistic experience as a
-              means of exploring this kind of rest. The objective is to use the
-              autoethnographic analysis of my composition process and the
-              critical revision of previous artworks to create a series of
-              public multidisciplinary concerts. In these concerts, a space is
-              open where resting can be reflected on and practiced at both the
-              personal and collective levels, focusing on its meaning and
-              purpose. From the compositional point of view, I aim to develop
-              what I call an “underloaded” approach to the procedures and
-              materials of the composition process. This underloaded practice
-              leads to a decreased output as a favorable condition for resting
-              and affects not only sound but also aspects of light or space.
+              <em>Composer asleep; The creative (non)practice of not-doing</em>
+              <br></br>
+              <br></br>
+              What does it mean to rest in a world where everything is
+              profitable? Can the artist let go of its role as producer in a
+              context of global ecological, psychological, and emotional
+              depletion? These are the questions I depart from in{" "}
+              <em>Composer Asleep</em>, an artistic research project based on my
+              practice as a composer. In this project, I aim to develop a
+              composition practice based on inactivity with the objective of
+              rethinking the meaning of rest in the context of permanent
+              availability and self-exploitation of late capitalism. This
+              understanding of rest as unproductive interruption to respond to
+              the ongoing depletion crisis leads to a let go of my assumptions
+              about the active role of the composer as producer. Through the
+              composition of three concert-long works, I aim to explore and
+              embody alternative (in)active roles of the composer leading
+              instead to recovery and care. These works will be publicly
+              premiered at the Helsinki Music Center and will act as case
+              studies of my doctoral dissertation.
             </Paragraph>
           </ul>
           <br />

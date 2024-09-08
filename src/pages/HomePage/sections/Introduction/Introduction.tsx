@@ -35,7 +35,7 @@ const Introduction = () => {
           mass-market era, our capacity to perceive and interpret the world and
           the self, and our subsequent consciousness and freedom. I dream about
           and work for a way of creation, interpretation, and reception of art
-          within an environment free of market domination, academic technocracy.
+          within an environment free of market domination, academic technocracy,
           and administrative deception.
           <br />
           <br />
@@ -50,7 +50,7 @@ const Introduction = () => {
           <br />
           In my pieces, I aim to question the normalization of that productive
           approach to everyday life, which causes us fatigue and distances us
-          from the capacity to reconstruct ourselves as reflexive subjects. I
+          from the capacity to construct ourselves as reflexive subjects. I
           create spaces to practice rest as an end in itself.
           <br />
           <br />
@@ -63,8 +63,8 @@ const Introduction = () => {
 
         <SubSectionHeader level={2}>Acknowledgments</SubSectionHeader>
         <Paragraph>
-          Thanks to Jean-Paul Sartre for <span className="italic">Nausea</span>,
-          John Kennedy Toole for{" "}
+          Thanks to Jean-Paul Sartre for{" "}
+          <span className="italic">La Nausée</span>, John Kennedy Toole for{" "}
           <span className="italic">A Confederacy of Dunces</span>, John
           Steinbeck for <span className="italic">The Grapes of Wrath</span>, and
           José Luis Sampedro for{" "}
