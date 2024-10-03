@@ -18,6 +18,35 @@ const WorksPage = () => {
 
       <ul className="text-justify">
         <ListItem>
+          <em>Music with backs turned</em>, for violin, double bass, and piano
+          (July 2024) – Premiered by Gerdan Ensemble and Daniel del Pino,
+          September 24, 2024 (Washington DC, USA){" "}
+          <a
+            href="https://archive.org/details/music-with-backs-turned"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500"
+          >
+            [PDF]
+          </a>
+        </ListItem>
+        <ListItem>
+          <em>
+            My grandpa used to braid esparto grass for hours under the shadow of
+            the fig tree
+          </em>
+          , for symphony orchestra (July 2024) – Premiered by Georgia Tech
+          Symphony Orchestra, September 16, 2024 (Atlanta, USA){" "}
+          <a
+            href="https://archive.org/details/my-grandpa-used-to-braid-esparto-grass"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500"
+          >
+            [PDF]
+          </a>
+        </ListItem>
+        <ListItem>
           <em>Music to watch a puddle dry</em>, for flute and tape (December
           2023) – Premiered at Francisco Rojas' master's recital, June 26, 2024
           (Gent, Belgium){" "}

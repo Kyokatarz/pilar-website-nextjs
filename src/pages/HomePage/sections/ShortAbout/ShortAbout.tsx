@@ -12,18 +12,17 @@ const About = () => {
         <Paragraph>
           My name is Pilar Miralles and I was born in Almería (Spain) in 1997. I
           am a composer and researcher currently based in Helsinki (Finland). I
-          completed my Master's Degrees in Electroacoustic Composition and
+          completed my Master's Degrees in Electroacoustic Composition and in
           Composition in Madrid and Helsinki, respectively, and now I am a
           doctoral candidate in the Arts Study Programme of DocMus Doctoral
           School at the Sibelius Academy, University of the Arts Helsinki. My
-          artistic research project is titled{" "}
-          <em>Composer asleep; The creative (non)practice of not-doing</em>
-          . In this project, I aim to rethink what resting means in the context
-          of a productivity-driven society. Through the composition of three
-          concert-long works, I question the role of the composer as active
-          producer and explore alternative agencies leading to resting and
-          allowing rest in the face of hyper-abundance and the consequent
-          depletion it causes.
+          artistic research project and overall practice aim at questioning the
+          value of action and rethinking the meaning of rest through the
+          development of a composition practice based on inactivity. This
+          responds to a societal context of productive overload and permanent
+          availability, in which the creation of spaces to{" "}
+          <em>linger over sound</em> allows a reflection on time (and its
+          disregard) .
           <br />
           <br />
           My work as a composer has been supported by Teosto, MES, and Pro

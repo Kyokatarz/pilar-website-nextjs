@@ -66,31 +66,22 @@ const FullAbout = () => {
             </ListItem>
           </ul>
           <br />
-          <SubSectionHeader level={2}>
-            Current research project
-          </SubSectionHeader>
+          <SubSectionHeader level={2}>Ongoing research</SubSectionHeader>
           <ul className="text-justify">
             <Paragraph>
-              <em>Composer asleep; The creative (non)practice of not-doing</em>
-              <br></br>
-              <br></br>
-              What does it mean to rest in a world where everything is
-              profitable? Can the artist let go of its role as producer in a
-              context of global ecological, psychological, and emotional
-              depletion? These are the questions I depart from in{" "}
-              <em>Composer Asleep</em>, an artistic research project based on my
-              practice as a composer. In this project, I aim to develop a
-              composition practice based on inactivity to rethink the meaning of
-              rest in the context of permanent availability, self-exploitation,
-              and consequent depletion of late capitalism. The recovery of
-              resting as an unproductive interruption, instead of a means to
-              keep contributing to the hyper-abundance demands, leads me to
-              question the role of the composer as an active producer. Through
-              the composition of three concert-long works, I aim to explore and
-              embody alternative (in)active roles of the composer leading
-              instead to resting and allowing to rest. These works will be
-              publicly premiered at the Helsinki Music Center and will act as
-              case studies of my doctoral dissertation.
+              As a doctoral candidate at DocMus, I do artistic research, meaning
+              that my artistic practice, which is composing, is the main object
+              of research, both as a methodological tool and as a research
+              outcome in itself. In my ongoing research project, I aim to
+              question the value of action and rethink the meaning of rest by
+              developing a composition practice based on inactivity. This
+              responds to a societal context of productive overload and
+              permanent availability, in which the creation of spaces to{" "}
+              <em>linger over sound</em>
+              allows a reflection on time (and its disregard). The artistic
+              output of the project consists of three new compositions that will
+              be publicly premiered at the Helsinki Music Center, and which will
+              act as case studies of my doctoral dissertation.
             </Paragraph>
           </ul>
           <br />
@@ -119,12 +110,13 @@ const FullAbout = () => {
             the Sibelius Academy since 2023. During 2023-24, I have been invited
             by the Ulysses Network to join the Ulysses Journeys for Young
             Composers, attending composition courses in Viitasaari, Hamburg, and
-            Barcelona, and in September 2024 I will visit Georgia Tech
-            University in Atlanta as part of my participation in the program
-            Spanish Young Music Talents organized by the cultural area of the
-            Embassy of Spain in Washington DC. Lastly, from time to time, I dust
-            off my extra-official text-based work (the so-called <em>book</em>),
-            my flute, and my collage notebook.
+            Barcelona, and during September 2024, I participated in the program
+            Spanish Young Music Talents organized by SPAIN Arts & Culture,
+            participating in composition seminars and premieres at Georgia Tech
+            University (Atlanta), the University of Georgia (Athens), and the
+            Spanish Cultural Center (Washington DC). Lastly, from time to time,
+            I dust off my extra-official text-based work (the so-called{" "}
+            <em>book</em>), my flute, and my collage notebook.
           </Paragraph>
           <div className="mt-10 mb-10 w-full text-left border-black border-4 p-4 lg:hidden">
             <Paragraph>
