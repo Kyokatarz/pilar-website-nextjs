@@ -16,13 +16,9 @@ const About = () => {
           Composition in Madrid and Helsinki, respectively, and now I am a
           doctoral candidate in the Arts Study Programme of DocMus Doctoral
           School at the Sibelius Academy, University of the Arts Helsinki. My
-          artistic research project and overall practice aim at questioning the
-          value of action and rethinking the meaning of rest through the
-          development of a composition practice based on inactivity. This
-          responds to a societal context of productive overload and permanent
-          availability, in which the creation of spaces to{" "}
-          <em>linger over sound</em> allows a reflection on time (and its
-          disregard) .
+          artistic research project and overall practice as a composer aim at
+          questioning the value of action and rethinking the meaning of rest in
+          a social context of productive overload and permanent availability.
           <br />
           <br />
           My work as a composer has been supported by Teosto, MES, and Pro

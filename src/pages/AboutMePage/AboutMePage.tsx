@@ -77,11 +77,11 @@ const FullAbout = () => {
               developing a composition practice based on inactivity. This
               responds to a societal context of productive overload and
               permanent availability, in which the creation of spaces to{" "}
-              <em>linger over sound</em>
-              allows a reflection on time (and its disregard). The artistic
-              output of the project consists of three new compositions that will
-              be publicly premiered at the Helsinki Music Center, and which will
-              act as case studies of my doctoral dissertation.
+              <em>linger over sound</em> allows a reflection on time (and its
+              disregard). The artistic output of the project consists of three
+              new compositions that will be publicly premiered at the Helsinki
+              Music Center, and which will act as case studies of my doctoral
+              dissertation.
             </Paragraph>
           </ul>
           <br />
