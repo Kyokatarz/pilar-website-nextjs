@@ -88,13 +88,13 @@ const FullAbout = () => {
               listening to, and re-imagining obsolete objects, lost places, and
               forgotten practices through their collective memory. Special
               attention is given to esparto braiding, a virtually lost type of
-              handcrafting with vegetal fibers that had a great ethnological
-              importance in my homeland in southeastern Spain. A series of
-              multi-media installations will allow the audience to peek into
-              this open-ended process, which is ultimately intended as a source
-              of constant reflection on how acknowledging our presence and the
-              presence of the other can help us understand anew our modes of
-              existence in the world.
+              handcrafting with vegetal fibers of great ethnological importance
+              in my homeland in southeastern Spain. A series of multi-media
+              installations will allow the audience to peek into this open-ended
+              process, which is ultimately intended as a source of constant
+              reflection on how acknowledging our presence and the presence of
+              the other can help us understand anew our modes of existence in
+              the world.
             </Paragraph>
           </ul>
           <br />

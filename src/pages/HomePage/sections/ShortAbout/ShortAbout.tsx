@@ -17,7 +17,7 @@ const About = () => {
           doctoral candidate in the Arts Study Programme of DocMus Doctoral
           School at the Sibelius Academy, University of the Arts Helsinki. In my
           artistic research, I aim at challenging the goal- and future-oriented
-          logic of post-capitalism, which make impossible the notion of
+          logic of post-capitalism, which makes impossible the notion of
           presence. An alternative mode of being in the world is explored
           through situated practice in the context of my rural nostalgia and its
           collective memory.

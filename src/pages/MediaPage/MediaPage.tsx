@@ -26,7 +26,7 @@ const youtubeMedia = [
   {
     title:
       '"My grandpa used to braid esparto grass for hours under the shadow of the fig tree", for symphony orchestra (2021) – Georgia Tech Symphony Orchestra',
-    url: "https://www.youtube.com/live/Qovu0TSUjqE?feature=shared&t=1175",
+    url: "https://www.youtube.com/live/Qovu0TSUjqE?feature=shared&t=718",
   },
   {
     title:
@@ -146,6 +146,12 @@ const MediaPage = () => {
             "Done for the day", for any performers playing in a concert and tape
             (2024) - To be premiered by Vertixe Sonora and Hong Kong New Music
             Ensemble during Zagreb Biennale, in April 2025
+          </ListItem>
+          <ListItem>
+            "Esparto-approached; Re-encountering the rural", multi-screen video
+            and audio installation (2025) - First artistic component of my
+            doctoral degree, to be scheduled in May 2025, in Organo Hall of the
+            Helsinki Music Center
           </ListItem>
           <ListItem>
             "Music for a potted plant", for classical guitar (2024) - To be
