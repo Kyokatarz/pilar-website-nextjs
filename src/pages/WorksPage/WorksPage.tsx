@@ -18,6 +18,19 @@ const WorksPage = () => {
 
       <ul className="text-justify">
         <ListItem>
+          <em>En aquel cortijo no había luz</em>, for cowbells (October 2024) –
+          Premiered by Stèles Duo at FCAYC, October 26, 2024 (Cerezales del
+          Condado, Spain){" "}
+          <a
+            href="https://archive.org/details/en-aquel-cortijo"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500"
+          >
+            [PDF]
+          </a>
+        </ListItem>
+        <ListItem>
           <em>Music with backs turned</em>, for violin, double bass, and piano
           (July 2024) – Premiered by Gerdan Ensemble and Daniel del Pino,
           September 24, 2024 (Washington DC, USA){" "}

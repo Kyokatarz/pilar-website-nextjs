@@ -21,9 +21,8 @@ const Media = () => {
 
         <div className="w-full mb-12">
           <YoutubeCaptionPair
-            url="https://www.youtube.com/watch?v=5KWVNMhr85w&t=1343s"
-            caption={`"Caressing You till My Fingers Bleed", computer-generated sound through SuperCollider programming language (2020) – MuTeFest 20’ 
-              (Festival of Musical Creation with Technology 2020)`}
+            url="https://www.youtube.com/watch?v=fXQoQF_aMEQ"
+            caption={`"En aquel cortijo no había luz", for cowbells (2024) – Stèles Duo at Programa de residencias JME-FCAYC`}
           />
         </div>
 

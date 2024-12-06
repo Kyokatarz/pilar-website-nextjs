@@ -69,19 +69,32 @@ const FullAbout = () => {
           <SubSectionHeader level={2}>Ongoing research</SubSectionHeader>
           <ul className="text-justify">
             <Paragraph>
+              <em>
+                Braiding esparto grass: Reflections on nostalgia, rurality, and
+                presence as spaces of nonconformity
+              </em>
+              <br />
+              <br />
               As a doctoral candidate at DocMus, I do artistic research, meaning
-              that my artistic practice, which is composing, is the main object
-              of research, both as a methodological tool and as a research
-              outcome in itself. In my ongoing research project, I aim to
-              question the value of action and rethink the meaning of rest by
-              developing a composition practice based on inactivity. This
-              responds to a societal context of productive overload and
-              permanent availability, in which the creation of spaces to{" "}
-              <em>linger over sound</em> allows a reflection on time (and its
-              disregard). The artistic output of the project consists of three
-              new compositions that will be publicly premiered at the Helsinki
-              Music Center, and which will act as case studies of my doctoral
-              dissertation.
+              that my artistic <em>doings</em> are my main means of inquiry. In
+              my ongoing research project, I wonder how a process-oriented and
+              situated practice can create spaces of nonconformity with and lay
+              out alternative narratives to the current post-capitalistic logic
+              of immediacy and goal-/future-orientedness, which makes impossible
+              the notion of presence, both understood as being present in time
+              and space. Rurality and nostalgia, as concepts of embedded
+              backwardness and collectiveness, are explored as a possible source
+              for these alternative narratives through encountering, inhabiting,
+              listening to, and re-imagining obsolete objects, lost places, and
+              forgotten practices through their collective memory. Special
+              attention is given to esparto braiding, a virtually lost type of
+              handcrafting with vegetal fibers that had a great ethnological
+              importance in my homeland in southeastern Spain. A series of
+              multi-media installations will allow the audience to peek into
+              this open-ended process, which is ultimately intended as a source
+              of constant reflection on how acknowledging our presence and the
+              presence of the other can help us understand anew our modes of
+              existence in the world.
             </Paragraph>
           </ul>
           <br />

@@ -10,6 +10,11 @@ import Link from "next/link";
 const youtubeMedia = [
   {
     title:
+      '"En aquel cortijo no había luz", for cowbells (2024) - Stèles Duo at FCAYC',
+    url: "https://www.youtube.com/watch?v=fXQoQF_aMEQ",
+  },
+  {
+    title:
       '"Music to watch the clouds pass by on a windless day", for seven players (2023) - Ensemble Ascolta and students from the akademie kontemporär 2023',
     url: "https://www.youtube.com/watch?v=CVqphkx-Qlw",
   },
@@ -17,6 +22,11 @@ const youtubeMedia = [
     title:
       '"I don\'t expect anything from this afternoon", for violin, bass clarinet, violoncello and percussion (2023) – Norrbotten NEO',
     url: "https://www.youtube.com/watch?v=mq7E79WxZYg",
+  },
+  {
+    title:
+      '"My grandpa used to braid esparto grass for hours under the shadow of the fig tree", for symphony orchestra (2021) – Georgia Tech Symphony Orchestra',
+    url: "https://www.youtube.com/live/Qovu0TSUjqE?feature=shared&t=1175",
   },
   {
     title:
@@ -31,11 +41,6 @@ const youtubeMedia = [
   {
     title: '"Hugs Catalogue", for eleven players (2021) – Zagros Ensemble',
     url: "https://youtu.be/m1DyHbCIPEk?t=3550",
-  },
-  {
-    title:
-      '"Abstractions IIb", for violin and piano (2021) – Yonatan Quemado and Niina Ranta',
-    url: "https://youtu.be/W8GhHBJ3UsM?t=1153",
   },
   {
     title:
@@ -62,11 +67,6 @@ const youtubeMedia = [
     title:
       'Piano Concerto, "Allegory of the Five Industrial Forces" (2022) – Orchestre national d’Île-de-France, with Marie-Ange Nguci',
     url: "https://www.youtube.com/watch?v=quXTd4CR1sw",
-  },
-  {
-    title:
-      '"Anti-Philosophy of the Subject; Mankind\'s Origin Is in Its Fellows", for oboe and string trio (2022) - Cuarteto Emispherio',
-    url: "https://www.youtube.com/watch?v=XwoO4x_gT54",
   },
 ];
 
@@ -132,36 +132,26 @@ const MediaPage = () => {
         <p className="underline">Upcoming premieres</p>
         <ul className="mt-8" id="premiers">
           <ListItem>
-            "En aquel cortijo no había luz", for two cowbells (2024) - To be
-            premiered by Duo Stèles (Guillem Serrano and Ismael Azidane) in
-            Cerezales (León, Spain) on October 26, 2024, as part of my
-            composition residency at{" "}
-            <em>Red de Juventudes Musicales de España</em> (Spanish Music Youth
-            Network)
-          </ListItem>
-          <ListItem>
-            "Music for a potted plant", for classical guitar (2024) - To be
-            premiered by Rody van Gemert at the Museum of Spanish Guitar
-            “Antonio de Torres” in Almería (Spain) in January 2025, and in
-            Helsinki’s Temppeliaukio Church as part of the Autumn 2025 concert
-            series of The Finnish Association of Soloists
-          </ListItem>
-          <ListItem>
-            "Sleeping through", for classical guitar, kantele and harpsichord
-            (2024) - To be premiered by Superpluck Trio during the Musica Nova
-            Festival in Helsinki's Hietsun Paviljonki, on February 10, 2025
+            "Nana", for classical guitar, kantele and harpsichord (2024) - To be
+            premiered by Superpluck Trio during the Musica Nova Festival in
+            Helsinki's Hietsun Paviljonki, on February 10, 2025
           </ListItem>
           <ListItem>
             "Agüilla fresca", for euphonium and fountain (2024) - To be
-            premiered by Raúl Sabiote in Cerezales (León, Spain) on February 16,
-            2025, as part of my composition residency at{" "}
-            <em>Red de Juventudes Musicales de España</em> (Spanish Music Youth
-            Network)
+            premiered by Raúl Sabiote in Cerezales del Condado (Spain) on
+            February 16, 2025, as part of{" "}
+            <em>Programa de Residencias JME-FCAYC</em>
           </ListItem>
           <ListItem>
-            "Lull", for harp and tape (2024) - To be premiered by Maaria Pulakka
-            at her master's recital at the Sibelius Academy in Helsinki,
-            Finland, in the Spring of 2025
+            "Done for the day", for any performers playing in a concert and tape
+            (2024) - To be premiered by Vertixe Sonora and Hong Kong New Music
+            Ensemble during Zagreb Biennale, in April 2025
+          </ListItem>
+          <ListItem>
+            "Music for a potted plant", for classical guitar (2024) - To be
+            premiered by Rody van Gemert in Almería (Spain) during the Winter
+            2025, and in Helsinki’s Temppeliaukio Church as part of the Autumn
+            2025 concert series of The Finnish Association of Soloists
           </ListItem>
         </ul>
       </div>

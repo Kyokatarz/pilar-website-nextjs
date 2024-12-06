@@ -15,10 +15,12 @@ const About = () => {
           completed my Master's Degrees in Electroacoustic Composition and in
           Composition in Madrid and Helsinki, respectively, and now I am a
           doctoral candidate in the Arts Study Programme of DocMus Doctoral
-          School at the Sibelius Academy, University of the Arts Helsinki. My
-          artistic research project and overall practice as a composer aim at
-          questioning the value of action and rethinking the meaning of rest in
-          a social context of productive overload and permanent availability.
+          School at the Sibelius Academy, University of the Arts Helsinki. In my
+          artistic research, I aim at challenging the goal- and future-oriented
+          logic of post-capitalism, which make impossible the notion of
+          presence. An alternative mode of being in the world is explored
+          through situated practice in the context of my rural nostalgia and its
+          collective memory.
           <br />
           <br />
           My work as a composer has been supported by Teosto, MES, and Pro
