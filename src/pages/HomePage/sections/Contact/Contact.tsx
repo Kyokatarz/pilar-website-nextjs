@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import Article from "@/components/Article";
 import Section from "@/components/Section";
-import ContactPhoto from "@/../public/assets/foto-cowbells.png";
+import ContactPhoto from "@/../public/assets/Contact-photo.png";
 
 type ContactType = {
   hideImage?: boolean;

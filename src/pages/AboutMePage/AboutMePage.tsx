@@ -6,7 +6,7 @@ import Section from "@/components/Section";
 import SeeMore from "@/components/SeeMore";
 import SubSectionHeader from "@/components/SubSectionHeader";
 
-import PilarWorking from "@/../public/assets/foto-vertical.jpg";
+import PilarWorking from "@/../public/assets/About-photo.png";
 import Image from "next/image";
 
 const FullAbout = () => {
