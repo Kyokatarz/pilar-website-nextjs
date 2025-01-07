@@ -16,11 +16,16 @@ const About = () => {
           Composition in Madrid and Helsinki, respectively, and now I am a
           doctoral candidate in the Arts Study Programme of DocMus Doctoral
           School at the Sibelius Academy, University of the Arts Helsinki. In my
-          artistic research, I aim at challenging the goal- and future-oriented
-          logic of post-capitalism, which makes impossible the notion of
-          presence. An alternative mode of being in the world is explored
-          through situated practice in the context of my rural nostalgia and its
-          collective memory.
+          artistic research, I aim to develop a situated practice amid a world
+          in which the immediacy of progress leads to permanent obsolescence,
+          making the notion of presence impossible. Seeking back this experience
+          of presence in the immediacy era leads me to a practice of inhabiting,
+          enacting, and reimagining forgotten, expired, and obsolete places,
+          objects, and practices (especially from my rural nostalgia) through
+          their collective memory. This process is shared with the audience
+          through a series of multimedia expositions and performances to about
+          continuous reflection on alternative modes of being and becoming in
+          the world.
           <br />
           <br />
           My work as a composer has been supported by Teosto, MES, and Pro

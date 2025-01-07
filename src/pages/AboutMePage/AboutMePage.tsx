@@ -70,31 +70,31 @@ const FullAbout = () => {
           <ul className="text-justify">
             <Paragraph>
               <em>
-                Braiding esparto grass: Reflections on nostalgia, rurality, and
-                presence as spaces of nonconformity
+                Situating artistic practice: An attempt to remain despite the
+                immediacy era
               </em>
               <br />
               <br />
               As a doctoral candidate at DocMus, I do artistic research, meaning
-              that my artistic <em>doings</em> are my main means of inquiry. In
-              my ongoing research project, I wonder how a process-oriented and
-              situated practice can create spaces of nonconformity with and lay
-              out alternative narratives to the current post-capitalistic logic
-              of immediacy and goal-/future-orientedness, which makes impossible
-              the notion of presence, both understood as being present in time
-              and space. Rurality and nostalgia, as concepts of embedded
-              backwardness and collectiveness, are explored as a possible source
-              for these alternative narratives through encountering, inhabiting,
-              listening to, and re-imagining obsolete objects, lost places, and
-              forgotten practices through their collective memory. Special
-              attention is given to esparto braiding, a virtually lost type of
-              handcrafting with vegetal fibers of great ethnological importance
-              in my homeland in southeastern Spain. A series of multi-media
-              installations will allow the audience to peek into this open-ended
-              process, which is ultimately intended as a source of constant
-              reflection on how acknowledging our presence and the presence of
-              the other can help us understand anew our modes of existence in
-              the world.
+              that my artistic doings are my main means of inquiry. In my
+              ongoing research project, I develop a situated artistic practice
+              in the context of a world in which the immediacy of progress leads
+              to permanent obsolescence, making the notion of presence
+              impossible. Seeking back this experience of presence in the
+              immediacy era leads me to a practice of inhabiting, enacting, and
+              reimagining forgotten, expired, and obsolete places, objects, and
+              practices, especially those from my rural nostalgia. Because these
+              sites, items, and doings have no value left other than their
+              collective memory, they offer an opportunity to make oneself
+              present by acknowledging the other. Special attention is given to
+              esparto braiding, a virtually lost type of handcrafting with
+              vegetal fibers of great ethnological importance in my homeland in
+              southeastern Spain. This process is shared with the audience
+              through a series of three multimedia installations intended as a
+              source of constant reflection (rather than finalized products) on
+              how acknowledging our presence and the presence of the other can
+              help us understand anew our modes of being and becoming in the
+              world.
             </Paragraph>
           </ul>
           <br />
