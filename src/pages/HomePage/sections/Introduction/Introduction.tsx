@@ -5,7 +5,7 @@ import SubSectionHeader from "@/components/SubSectionHeader";
 import Paragraph from "@/components/Paragraph";
 import Article from "@/components/Article";
 import Section from "@/components/Section";
-import TheUgly from "@/../public/assets/Landing-photo.jpg";
+import TheUgly from "@/../public/assets/Landing-photo.png";
 
 const Introduction = () => {
   return (
