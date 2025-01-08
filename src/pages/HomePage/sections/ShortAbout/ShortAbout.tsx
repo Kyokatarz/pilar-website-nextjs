@@ -23,9 +23,8 @@ const About = () => {
           enacting, and reimagining forgotten, expired, and obsolete places,
           objects, and practices (especially from my rural nostalgia) through
           their collective memory. This process is shared with the audience
-          through a series of multimedia expositions and performances to bring
-          about continuous reflection on alternative modes of being and becoming
-          in the world.
+          through a series of multimedia installations to bring about continuous
+          reflection on alternative modes of being and becoming in the world.
           <br />
           <br />
           My work as a composer has been supported by Teosto, MES, and Pro
