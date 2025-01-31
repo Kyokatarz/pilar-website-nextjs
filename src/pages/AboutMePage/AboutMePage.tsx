@@ -77,24 +77,21 @@ const FullAbout = () => {
               <br />
               As a doctoral candidate at DocMus, I do artistic research, meaning
               that my artistic doings are my main means of inquiry. In my
-              ongoing research project, I develop a situated artistic practice
-              in the context of a world in which the immediacy of progress leads
-              to permanent obsolescence, making the notion of presence
-              impossible. Seeking back this experience of presence in the
-              immediacy era leads me to a practice of inhabiting, enacting, and
-              reimagining forgotten, expired, and obsolete places, objects, and
-              practices, especially those from my rural nostalgia. Because these
-              sites, items, and doings have no value left other than their
-              collective memory, they offer an opportunity to make oneself
-              present by acknowledging the other. Special attention is given to
-              esparto braiding, a virtually lost type of handcrafting with
-              vegetal fibers of great ethnological importance in my homeland in
-              southeastern Spain. This process is shared with the audience
-              through a series of three multimedia installations intended as a
-              source of constant reflection (rather than finalized products) on
-              how acknowledging our presence and the presence of the other can
-              help us understand anew our modes of being and becoming in the
-              world.
+              ongoing research project, I seek to open up a reflection on the
+              crisis of presence and rootlessness of a context where immediacy
+              prevails. As an extreme form of acceleration, immediacy leads to
+              shallowness and rapid obsolescence that can damage our
+              meaning-making structures. In the face of this reality, I explore
+              situated practice, which is the practice that is sensitive to its
+              time, place, and significations, as a source of presence. This
+              exploration is carried out during a series of field trips in which
+              I focus on retrieving memories from those places, objects, and
+              practices that immediacy has rendered abandoned and forgotten. A
+              series of multimedia installations allows the audience to partake
+              in the reflective process laid out by this practice. The ultimate
+              objective is to resignify these memories, seeking to restore the
+              shared meanings that strengthen our relationship with the present
+              time, space, and the people inhabiting them.
             </Paragraph>
           </ul>
           <br />

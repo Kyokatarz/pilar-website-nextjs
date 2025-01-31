@@ -15,20 +15,18 @@ const About = () => {
           completed my Master's Degrees in Electroacoustic Composition and in
           Composition in Madrid and Helsinki, respectively, and now I am a
           doctoral candidate in the Arts Study Programme of DocMus Doctoral
-          School at the Sibelius Academy, University of the Arts Helsinki. In my
-          artistic research, I aim to develop a situated practice amid a world
-          in which the immediacy of progress leads to permanent obsolescence,
-          making the notion of presence impossible. Seeking back this experience
-          of presence in the immediacy era leads me to a practice of inhabiting,
-          enacting, and reimagining forgotten, expired, and obsolete places,
-          objects, and practices (especially from my rural nostalgia) through
-          their collective memory. This process is shared with the audience
-          through a series of multimedia installations to bring about continuous
-          reflection on alternative modes of being and becoming in the world.
+          School at the Sibelius Academy, University of the Arts Helsinki. My
+          artistic research delves into situated practice, reflecting on the
+          crisis of presence and rootlessness of a context of prevailing
+          immediacy. This process is shared with the audience through a series
+          of multimedia installations focusing on resignifying the shared
+          memories that strengthen the relationship with our present time,
+          place, and the people inhabiting them.
           <br />
-          <br />
-          My work as a composer has been supported by Teosto, MES, and Pro
-          Musica Säätiö.
+          <br />I have recently participated in artistic programs at the ULYSSES
+          Network (EU), the FCAYC Foundation (Spain), and SPAIN arts & culture
+          (US), among others. My work as a composer has been supported by
+          Teosto, MES, and Pro Musica Säätiö.
         </Paragraph>
         <SeeMore to="/about-me">See more about me {">>"}</SeeMore>
       </Article>
