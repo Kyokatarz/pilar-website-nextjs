@@ -47,11 +47,11 @@ const Introduction = () => {
           extremely relevant.
           <br />
           <br />
-          In my artistis <em>doings</em>, I question to goal- and
+          In my artistis <em>doings</em>, I question the goal- and
           future-orientation in which we are embedded and which have led us to a
           crisis of presence. My practice is approached as a source of
           continuous reflection rather than finalized products, a space to dwell
-          that has found its latest creative motor in rural nostalgia and its
+          that has found its latest creative motor in the rural context and its
           collective memory.
           <br />
           <br />
@@ -69,12 +69,15 @@ const Introduction = () => {
           <span className="italic">A Confederacy of Dunces</span>, John
           Steinbeck for <span className="italic">The Grapes of Wrath</span>, and
           José Luis Sampedro for{" "}
-          <span className="italic">El río que nos lleva</span>.
+          <span className="italic">El río que nos lleva</span>. Thanks to Aldous
+          Huxley <em>on the very whole</em>.
           <br />
           <br />
           Thanks to Galina Ustvolskaya, the truest composer, and to Éliane
           Radigue, Eva-Maria Houben, and Jakob Ullmann for defying the immediacy
           era. Thanks to William Basinski for being <em>nothing</em> enough.
+          Thanks to any artist who has taught me to listen beyond notes and
+          structures.
           <br />
           <br />
           Thanks to Dada (
