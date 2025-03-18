@@ -18,6 +18,24 @@ const WorksPage = () => {
 
       <ul className="text-justify">
         <ListItem>
+          <em>Nana (Lullaby)</em>, for harpsichord, kantele, and classical
+          guitar (February 2025) – Premiered by Trio Superpluck at Musica nova
+          Festival, February 10, 2025 (Helsinki, Finland){" "}
+        </ListItem>
+        <ListItem>
+          <em>Agüilla fresca</em>, for euphonium and fountain (February 2025) –
+          Premiered by Raúl Sabiote at FCAYC, February 15, 2025 (Cerezales del
+          Condado, Spain){" "}
+          <a
+            href="https://archive.org/details/aguilla-fresca"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500"
+          >
+            [PDF]
+          </a>
+        </ListItem>
+        <ListItem>
           <em>En aquel cortijo no había luz</em>, for cowbells (October 2024) –
           Premiered by Stèles Duo at FCAYC, October 26, 2024 (Cerezales del
           Condado, Spain){" "}

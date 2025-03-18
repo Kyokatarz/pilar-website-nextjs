@@ -22,7 +22,7 @@ const Introduction = () => {
           <h1 className="text-4xl text-black mb-6 text-center ">
             <span>PILAR MIRALLES</span> <br />
             <span className="text-2xl italic text-gray-600">
-              composer / researcher
+              sound artist / researcher
             </span>
           </h1>
         </header>
@@ -51,12 +51,15 @@ const Introduction = () => {
           future-orientation in which we are embedded and which have led us to a
           crisis of presence. My practice is approached as a source of
           continuous reflection rather than finalized products, a space to dwell
-          that has found its latest creative motor in the rural context and its
-          collective memory.
+          that has found its latest creative motor in those expired objects and
+          abandoned places that <em>remain</em> despite oblivion.
           <br />
           <br />
-          <em>El regreso a los bosques es la solución</em> (Ñu - Cuentos de ayer
-          y de hoy, 1978) <br />
+          <em>
+            Time passes. Stuff withers. Things become nothing but their memory.
+            And memories can only live through someone.
+          </em>{" "}
+          <br />
           <br />
           <br />
           <br />
@@ -65,19 +68,8 @@ const Introduction = () => {
         <SubSectionHeader level={2}>Acknowledgments</SubSectionHeader>
         <Paragraph>
           Thanks to Jean-Paul Sartre for{" "}
-          <span className="italic">La Nausée</span>, John Kennedy Toole for{" "}
-          <span className="italic">A Confederacy of Dunces</span>, John
-          Steinbeck for <span className="italic">The Grapes of Wrath</span>, and
-          José Luis Sampedro for{" "}
-          <span className="italic">El río que nos lleva</span>. Thanks to Aldous
-          Huxley <em>on the very whole</em>.
-          <br />
-          <br />
-          Thanks to Galina Ustvolskaya, the truest composer, and to Éliane
-          Radigue, Eva-Maria Houben, and Jakob Ullmann for defying the immediacy
-          era. Thanks to William Basinski for being <em>nothing</em> enough.
-          Thanks to any artist who has taught me to listen beyond notes and
-          structures.
+          <span className="italic">La Nausée</span>, and John Kennedy Toole for{" "}
+          <span className="italic">A Confederacy of Dunces</span>.
           <br />
           <br />
           Thanks to Dada (
@@ -89,9 +81,8 @@ const Introduction = () => {
           according to the mass-market society.
           <br />
           <br />
-          And thanks to all artists yet to be discovered, lost in the ocean of
-          information, that will guide and inspire my work at some point. I am
-          constantly searching for you.
+          Thanks to all artists who have taught me to listen beyond notes and
+          structures.
         </Paragraph>
         <br />
         <br />

@@ -9,6 +9,10 @@ import Link from "next/link";
 
 const youtubeMedia = [
   {
+    title: '"Nana (Lullaby)" (2025) – Superpluck Trio at Musica nova Festival',
+    url: "https://www.youtube.com/watch?v=DY-9VJ2mDkg",
+  },
+  {
     title:
       '"En aquel cortijo no había luz", for cowbells (2024) - Stèles Duo at FCAYC',
     url: "https://www.youtube.com/watch?v=fXQoQF_aMEQ",
@@ -25,7 +29,7 @@ const youtubeMedia = [
   },
   {
     title:
-      '"My grandpa used to braid esparto grass for hours under the shadow of the fig tree", for symphony orchestra (2021) – Georgia Tech Symphony Orchestra',
+      '"My grandpa used to braid esparto grass for hours under the shadow of the fig tree", for symphony orchestra (2024) – Georgia Tech Symphony Orchestra',
     url: "https://www.youtube.com/live/Qovu0TSUjqE?feature=shared&t=718",
   },
   {
@@ -62,11 +66,6 @@ const youtubeMedia = [
     title:
       '"Relative Distance", for flute and computer-generated sound (2019) – Francisco Rojas Huertas',
     url: "https://www.youtube.com/watch?v=2j2BSpcZgkA",
-  },
-  {
-    title:
-      'Piano Concerto, "Allegory of the Five Industrial Forces" (2022) – Orchestre national d’Île-de-France, with Marie-Ange Nguci',
-    url: "https://www.youtube.com/watch?v=quXTd4CR1sw",
   },
 ];
 
@@ -132,17 +131,6 @@ const MediaPage = () => {
         <p className="underline">Upcoming premieres</p>
         <ul className="mt-8" id="premiers">
           <ListItem>
-            "Nana", for classical guitar, kantele and harpsichord (2024) - To be
-            premiered by Superpluck Trio during the Musica Nova Festival in
-            Helsinki's Hietsun Paviljonki, on February 10, 2025
-          </ListItem>
-          <ListItem>
-            "Agüilla fresca", for euphonium and fountain (2024) - To be
-            premiered by Raúl Sabiote in Cerezales del Condado (Spain) on
-            February 16, 2025, as part of{" "}
-            <em>Programa de Residencias JME-FCAYC</em>
-          </ListItem>
-          <ListItem>
             "Done for the day", for any performers playing in a concert and tape
             (2024) - To be premiered by Vertixe Sonora and Hong Kong New Music
             Ensemble during Zagreb Biennale, on April 12, 2025
@@ -156,8 +144,13 @@ const MediaPage = () => {
           <ListItem>
             "Music for a potted plant", for classical guitar (2024) - To be
             premiered by Rody van Gemert in Helsinki’s Temppeliaukio Church as
-            part of the Autumn 2025 concert series of The Finnish Association of
-            Soloists
+            part of the concert series of The Finnish Association of Soloists,
+            on October 18, 2025
+          </ListItem>
+          <ListItem>
+            "Esparto, embodied", performed installation (2025) - Second artistic
+            component of my doctoral degree, to be open for the audience on
+            October 18 (15h), 2025, in Organo Hall of the Helsinki Music Center
           </ListItem>
         </ul>
       </div>
