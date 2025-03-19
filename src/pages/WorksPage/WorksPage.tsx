@@ -21,6 +21,14 @@ const WorksPage = () => {
           <em>Nana (Lullaby)</em>, for harpsichord, kantele, and classical
           guitar (February 2025) – Premiered by Trio Superpluck at Musica nova
           Festival, February 10, 2025 (Helsinki, Finland){" "}
+          <a
+            href="https://archive.org/details/nana_20250319"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500"
+          >
+            [PDF, audio tracks]
+          </a>
         </ListItem>
         <ListItem>
           <em>Agüilla fresca</em>, for euphonium and fountain (February 2025) –

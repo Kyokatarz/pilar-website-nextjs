@@ -28,9 +28,9 @@ const Media = () => {
 
         <div className="w-full">
           <YoutubeCaptionPair
-            url="https://www.youtube.com/watch?v=mq7E79WxZYg"
+            url="https://www.youtube.com/watch?v=DY-9VJ2mDkg"
             caption={
-              '"I don\'t expect anything from this afternoon", for violin, bass clarinet, violoncello and percussion (2023) – Norrbotten NEO at Time of Music Festival 2023'
+              '"Nana (Lullaby)", for harpsichord, kantele, and guitar (2025) – Superpluck Trio at Musica nova Festival 2025'
             }
           />
         </div>

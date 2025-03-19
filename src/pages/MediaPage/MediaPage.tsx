@@ -133,19 +133,19 @@ const MediaPage = () => {
           <ListItem>
             "Done for the day", for any performers playing in a concert and tape
             (2024) - To be premiered by Vertixe Sonora and Hong Kong New Music
-            Ensemble during Zagreb Biennale, on April 12, 2025
+            Ensemble during Zagreb Biennale, on April 12 (20h), 2025
           </ListItem>
           <ListItem>
-            "Esparto, approached", multi-screen video and audio installation
-            (2025) - First artistic component of my doctoral degree, to be open
-            for the audience on May 10 (14-18h), 2025, in Organo Hall of the
-            Helsinki Music Center
+            "Esparto, approached", multimedia installation (2025) - First
+            artistic component of my doctoral degree, to be open for the
+            audience on May 10 (14-18h), 2025, in Organo Hall of the Helsinki
+            Music Center
           </ListItem>
           <ListItem>
             "Music for a potted plant", for classical guitar (2024) - To be
-            premiered by Rody van Gemert in Helsinki’s Temppeliaukio Church as
-            part of the concert series of The Finnish Association of Soloists,
-            on October 18, 2025
+            premiered by Rody van Gemert in Helsinki’s Temppeliaukio Church at
+            The Finnish Association of Soloists' Autumn series, on October 18
+            (19h), 2025
           </ListItem>
           <ListItem>
             "Esparto, embodied", performed installation (2025) - Second artistic
