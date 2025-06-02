@@ -6,6 +6,7 @@ import YoutubeCaptionPair from "../../components/YoutubeCaptionPair";
 import soundCloud from "../../../constants/soundCloud";
 import SoundCloudIframe from "../../components/SoundCloudIframe/SoundCloudIframe";
 import Link from "next/link";
+import SubSectionHeader from "@/components/SubSectionHeader";
 
 const youtubeMedia = [
   {
@@ -128,7 +129,9 @@ const MediaPage = () => {
       </div>
 
       <div className="w-full text-left mt-8 border-black border-4 p-4 ">
-        <p className="underline">Upcoming premieres</p>
+        <SubSectionHeader id="statement" level={2}>
+          Upcoming premieres
+        </SubSectionHeader>
         <ul className="mt-3" id="premiers">
           <ListItem>
             "Esparto, embodied", performed installation (2025) - Second artistic

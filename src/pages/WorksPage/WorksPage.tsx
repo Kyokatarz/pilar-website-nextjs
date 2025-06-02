@@ -2,6 +2,7 @@ import React from "react";
 import ListItem from "../../components/ListItem";
 import Section from "../../components/Section/Section";
 import Link from "next/link";
+import SubSectionHeader from "@/components/SubSectionHeader";
 
 const WorksPage = () => {
   return (
@@ -17,12 +18,12 @@ const WorksPage = () => {
       </span>
 
       <ul className="text-justify">
-        <span className="text-1xl text-black mb-4 text-center">
+        <SubSectionHeader id="statement" level={2}>
           <br />
           What is happening:
           <br />
           <br />
-        </span>
+        </SubSectionHeader>
         <ListItem>
           <em>Secuencia XI</em>, concert for cowbells (May 2025) – Commissioned
           by FCAYC and premiered by the neighbors of the Porma and Curueño
@@ -202,12 +203,12 @@ const WorksPage = () => {
           (January 2023)
         </ListItem>
 
-        <span className="text-1xl text-black mb-4 text-center">
+        <SubSectionHeader id="statement" level={2}>
           <br />
           What happened:
           <br />
           <br />
-        </span>
+        </SubSectionHeader>
 
         <ListItem>
           <em>Brief Requiem for the Poets and Prayers</em>, for chamber
