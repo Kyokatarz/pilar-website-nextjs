@@ -21,6 +21,13 @@ const Media = () => {
 
         <div className="w-full mb-12">
           <YoutubeCaptionPair
+            url="https://youtu.be/0y-UqKSsuU8"
+            caption={'"Esparto, approached", multimedia installation (2025)'}
+          />
+        </div>
+
+        <div className="w-full mb-12">
+          <YoutubeCaptionPair
             url="https://www.youtube.com/watch?v=fXQoQF_aMEQ"
             caption={`"En aquel cortijo no había luz", for cowbells (2024) – Stèles Duo at Programa de residencias JME-FCAYC`}
           />
@@ -36,21 +43,6 @@ const Media = () => {
         </div>
 
         <SeeMore to="/media"> See more media {">>"}</SeeMore>
-
-        <div className="w-full">
-          <SoundCloudIframe
-            url={dedbirbSoundCloud.url}
-            caption={dedbirbSoundCloud.caption}
-          />
-        </div>
-
-        <SeeMore
-          to="https://soundcloud.com/pilar-miralles-huh"
-          external
-          target="_blank"
-        >
-          See more in SoundCloud {">>"}
-        </SeeMore>
       </Article>
     </Section>
   );
