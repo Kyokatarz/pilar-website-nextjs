@@ -17,6 +17,39 @@ const WorksPage = () => {
       </span>
 
       <ul className="text-justify">
+        <span className="text-1xl text-black mb-4 text-center">
+          <br />
+          What is happening:
+          <br />
+          <br />
+        </span>
+        <ListItem>
+          <em>Secuencia XI</em>, concert for cowbells (May 2025) – Commissioned
+          by FCAYC and premiered by the neighbors of the Porma and Curueño
+          rivers, May 24, 2025 (Devesa de Curueño, Spain){" "}
+          <a
+            href="https://archive.org/details/secuencia-xi-partitura-general"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500"
+          >
+            [PDF]
+          </a>
+        </ListItem>
+        <ListItem>
+          <em>Done for the day</em>, for any number of musicians taking part in
+          a concert (November 2024) – Premiered by Vertixe Sonora and Hong Kong
+          New Music Ensemble at Zagreb Biennale, February 12, 2025 (Zagreb,
+          Croatia){" "}
+          <a
+            href="https://archive.org/details/done-for-the-day"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500"
+          >
+            [PDF, audio track]
+          </a>
+        </ListItem>
         <ListItem>
           <em>Nana (Lullaby)</em>, for harpsichord, kantele, and classical
           guitar (February 2025) – Premiered by Trio Superpluck at Musica nova
@@ -168,6 +201,14 @@ const WorksPage = () => {
           <em>Fusilli con lentejas (Fusilli with lentils)</em>, acousmatic work
           (January 2023)
         </ListItem>
+
+        <span className="text-1xl text-black mb-4 text-center">
+          <br />
+          What happened:
+          <br />
+          <br />
+        </span>
+
         <ListItem>
           <em>Brief Requiem for the Poets and Prayers</em>, for chamber
           orchestra (December 2022) – Premiered by <em>Avanti!</em> Chamber

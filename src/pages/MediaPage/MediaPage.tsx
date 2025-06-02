@@ -9,6 +9,10 @@ import Link from "next/link";
 
 const youtubeMedia = [
   {
+    title: '"Esparto, approached", multimedia installation (2025)',
+    url: "https://youtu.be/0y-UqKSsuU8",
+  },
+  {
     title: '"Nana (Lullaby)" (2025) – Superpluck Trio at Musica nova Festival',
     url: "https://www.youtube.com/watch?v=DY-9VJ2mDkg",
   },
@@ -41,10 +45,6 @@ const youtubeMedia = [
     title:
       '"Grito al cielo" ("Scream to the Sky"), for wind quintet (2021) – Glauka Quintet',
     url: "https://www.youtube.com/watch?v=i21ZI6iVQdU&amp;list=PLmCBAACC1BUa5u5jDfHdnVzeZ46RxWjnX&amp;index=3",
-  },
-  {
-    title: '"Hugs Catalogue", for eleven players (2021) – Zagros Ensemble',
-    url: "https://youtu.be/m1DyHbCIPEk?t=3550",
   },
   {
     title:
@@ -129,17 +129,12 @@ const MediaPage = () => {
 
       <div className="w-full text-left mt-8 border-black border-4 p-4 ">
         <p className="underline">Upcoming premieres</p>
-        <ul className="mt-8" id="premiers">
+        <ul className="mt-3" id="premiers">
           <ListItem>
-            "Done for the day", for any performers playing in a concert and tape
-            (2024) - To be premiered by Vertixe Sonora and Hong Kong New Music
-            Ensemble during Zagreb Biennale, on April 12 (20h), 2025
-          </ListItem>
-          <ListItem>
-            "Esparto, approached", multimedia installation (2025) - First
-            artistic component of my doctoral degree, to be open for the
-            audience on May 10 (14-18h), 2025, in Organo Hall of the Helsinki
-            Music Center
+            "Esparto, embodied", performed installation (2025) - Second artistic
+            component of my doctoral degree, to be open for the audience on
+            October 18 (13-16h), 2025, in Organo Hall of the Helsinki Music
+            Center
           </ListItem>
           <ListItem>
             "Music for a potted plant", for classical guitar (2024) - To be
@@ -148,9 +143,10 @@ const MediaPage = () => {
             (19h), 2025
           </ListItem>
           <ListItem>
-            "Esparto, embodied", performed installation (2025) - Second artistic
-            component of my doctoral degree, to be open for the audience on
-            October 18 (15h), 2025, in Organo Hall of the Helsinki Music Center
+            "Esparto, revisited", multimedia installation (2025-26) - Third
+            artistic component of my doctoral degree, to be open for the
+            audience in March 2026 (date TBA), in Black Box of the Helsinki
+            Music Center
           </ListItem>
         </ul>
       </div>

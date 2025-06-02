@@ -7,7 +7,7 @@ import Footer from "../components/Footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pilar Miralles · Composer - Researcher",
+  title: "Pilar Miralles · Sound artist - Researcher",
   description:
     "Hi, I'm Pilar Miralles - a composer and researcher. Welcome to my website!",
   icons: ["/favicon.ico"],
