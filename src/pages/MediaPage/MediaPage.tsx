@@ -14,6 +14,11 @@ const youtubeMedia = [
     url: "https://youtu.be/0y-UqKSsuU8",
   },
   {
+    title:
+      '"Done for the day" (2025) – Vertixe Sonora and Hong Kong New Music Ensemble',
+    url: "https://www.youtube.com/watch?v=GKQm9kruhiQ",
+  },
+  {
     title: '"Nana (Lullaby)" (2025) – Superpluck Trio at Musica nova Festival',
     url: "https://www.youtube.com/watch?v=DY-9VJ2mDkg",
   },
@@ -47,12 +52,6 @@ const youtubeMedia = [
       '"Grito al cielo" ("Scream to the Sky"), for wind quintet (2021) – Glauka Quintet',
     url: "https://www.youtube.com/watch?v=i21ZI6iVQdU&amp;list=PLmCBAACC1BUa5u5jDfHdnVzeZ46RxWjnX&amp;index=3",
   },
-  {
-    title:
-      '"Hunger and Fear Bred Anger", for piano, cello and percussion (2021) – Members of NYKY Ensemble',
-    url: "https://www.youtube.com/watch?v=Q12Duopu4mk&t=3337s",
-  },
-
   {
     title:
       '"Caressing You till My Fingers Bleed", for computer-generated sound (2020) – MuTeFest 20’ (Festival of Musical Creation with Technology 2020)',
