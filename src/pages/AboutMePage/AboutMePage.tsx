@@ -75,30 +75,31 @@ const FullAbout = () => {
           <ul className="text-justify">
             <Paragraph>
               <em>
-                Listening as remembrance: An autoethnography of presence in the
-                age of disposability
+                Listening through remembrance: An autoethnography of presence in
+                the age of disposability
               </em>
               <br />
               <br />
-              <em>Listening as remembrance</em> is an artistic research project,
-              meaning that my artistic doings are my main means of inquiry. In
-              this research, I explore how the practice of remembering can
-              contribute to regaining a deeper awareness of the time and place
-              we inhabit, despite our embeddedness in a world of disposable
-              nature. Being framed by sensorial autoethnography, this
-              exploration resorts to listening as a means to retrieve,
-              reimagine, and resignify memory. Listening (and what is listened
-              to, that is, sound) is understood here beyond its conventional
-              meaning, following Jean-Luc Nancy's idea of "listening as making
-              sense". The ultimate objective of the project is to understand how
-              we can make sense of and bestow value on things (objects, places,
-              practices) through the acknowledgment of both their constant
-              creation and deletion in our fast world, and their capacity to
-              remain through our memory. The images, sounds, voices, and
-              materials collected from my own practice of remembering in my
-              homeland, in rural Southeastern Spain, are collectively recalled
-              through a series of three multimedia installations in which I
-              invite the audience to further engage with their own remembrances.
+              <em>Listening through remembrance</em> is an artistic research
+              project, meaning that my artistic doings are my main means of
+              inquiry. In this research, I am looking into the concept of
+              presence to explore a relationship with the world that is not
+              based on disposability, that is, on fast-paced discard and
+              replacement (and, therefore, forgetfulness). For that, I am using
+              the notions of remembrance and listening to find (or even create)
+              the "anchor points" that we need to acknowledge ourselves as part
+              of the reality we inhabit. Jean-Luc Nancy's continual ideas on
+              presence and listening related to remaining open to the unfoldings
+              of the world represent one of the theoretical pillars of the
+              research. My objective is to understand remembrance as an access
+              point to this kind of attitude toward the world, allowing meanings
+              and values to be continuously restored through a sense of
+              familiarity, intimacy, or closeness. My field practice takes place
+              in my homeland, in rural Southeastern Spain, and the images,
+              sounds, objects, and voices collected from it are collectively
+              recalled in a series of three multimedia installations in which I
+              invite the audience, back in Finland, to further engage with their
+              own remembrances.
             </Paragraph>
           </ul>
           <br />
